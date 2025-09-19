@@ -5,6 +5,24 @@ description: "This blog is about sharing ideas — it’s about creating a place
 baseurl: ""
 url: "https://tyataessence.github.io"
 
+# Sidebar settings
+show_sidebar: true
+
+sidebar:
+  author:
+    name: "Rakesh Tyata"
+    bio: "Blogger, Developer, Thinker. Simplifying ideas across Technical, Personal, and Trending topics."
+    image: "/assets/images/rakesh_headshot.jpg"  # place profile image here
+    links:
+      youtube: "https://youtube.com/tyataessence"
+      github: "https://github.com/rtyata01"
+      linkedin: "https://linkedin.com/in/rtyata"
+
+  categories:
+    - Technical
+    - Personal
+    - Trending
+
 # Add this instead:
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 
@@ -12,6 +30,14 @@ plugins:
   - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-include-cache
-  
+
+# Use custom homepage layout for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "home"
+
 paginate: 5
 paginate_path: "/page:num/"
