@@ -10,9 +10,9 @@ url: "https://tyataessence.github.io" # your GitHub Pages URL
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-include-cache
   
 paginate: 5
 paginate_path: "/page:num/"
