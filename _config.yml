@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://tyataessence.github.io" # your GitHub Pages URL
 
 # Add this instead:
-remote_theme: mmistakes/minimal-mistakes@latest
+remote_theme: mmistakes/minimal-mistakes@4.27.3
 
 plugins:
   - jekyll-feed
