@@ -28,7 +28,6 @@ remote_theme: mmistakes/minimal-mistakes@4.27.3
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
   - jekyll-include-cache
 
 # Use custom homepage layout for pages
@@ -39,5 +38,3 @@ defaults:
     values:
       layout: "home"
 
-paginate: 5
-paginate_path: "/page:num/"
