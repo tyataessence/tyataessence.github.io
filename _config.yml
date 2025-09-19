@@ -1,0 +1,14 @@
+title: TyataEssence Blog
+author: Rakesh Tyata
+email: tyataessence@gmail.com
+description: "A blog to simplify thoughts and ideas"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tyataessence.github.io" # your GitHub Pages URL
+
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+paginate: 5
+paginate_path: "/page:num/"
