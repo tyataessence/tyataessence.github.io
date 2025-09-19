@@ -2,8 +2,8 @@
 layout: single
 title: "Tips for Blogging"
 date: 2025-09-16
-categories: [Technical]
-tags: [Sample, Technical]
+categories: [Trending]
+tags: [Sample, Trending]
 author: Rakesh Tyata
 ---
 

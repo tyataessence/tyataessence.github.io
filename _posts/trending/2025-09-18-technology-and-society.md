@@ -2,8 +2,8 @@
 layout: single
 title: "Technology and Society"
 date: 2025-09-18
-categories: [Social]
-tags: [Sample, Social]
+categories: [Trending]
+tags: [Sample, Trending]
 author: Rakesh Tyata
 ---
 

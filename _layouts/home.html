@@ -1,0 +1,51 @@
+<div class="container">
+  <!-- Left column: Main content -->
+  <main class="main-content" style="width: 70%; float: left;">
+    <h2>Technical</h2>
+    <ul>
+      {% assign tech_posts = site.categories.Technical | sort: 'date' | reverse %}
+      {% for post in tech_posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h2>Personal</h2>
+    <ul>
+      {% assign personal_posts = site.categories.Personal | sort: 'date' | reverse %}
+      {% for post in personal_posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h2>Social</h2>
+    <ul>
+      {% assign trending_posts = site.categories.Trending | sort: 'date' | reverse %}
+      {% for post in trending_posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </main>
+
+  <!-- Right column: Sidebar -->
+  <aside class="sidebar" style="width: 28%; float: right; padding-left: 2%;">
+    <img src="{{ site.sidebar.author.image | relative_url }}" alt="{{ site.sidebar.author.name }}" style="width:100%; border-radius:50%;">
+    <h3>{{ site.sidebar.author.name }}</h3>
+    <p>{{ site.sidebar.author.bio }}</p>
+
+    <h4>Connect:</h4>
+    <ul>
+      {% for key, url in site.sidebar.author.links %}
+        <li><a href="{{ url }}">{{ key | capitalize }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h4>Categories</h4>
+    <ul>
+      <li><a href="/personal/">Personal</a></li>
+      <li><a href="/technical/">Technical</a></li>
+      <li><a href="/trending/">Social</a></li>
+    </ul>
+  </aside>
+</div>
+
+<div style="clear: both;"></div>

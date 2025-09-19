@@ -2,8 +2,8 @@
 layout: single
 title: "Building Communities"
 date: 2025-09-16
-categories: [Social]
-tags: [Sample, Social]
+categories: [Trending]
+tags: [Sample, Trending]
 author: Rakesh Tyata
 ---
 
