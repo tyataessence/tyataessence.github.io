@@ -1,14 +1,7 @@
 <div class="container">
   <!-- Left column: Main content -->
   <main class="main-content" style="width: 70%; float: left;">
-    <h2>Technical</h2>
-    <ul>
-      {% assign tech_posts = site.categories.Technical | sort: 'date' | reverse %}
-      {% for post in tech_posts %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-
+    
     <h2>Personal</h2>
     <ul>
       {% assign personal_posts = site.categories.Personal | sort: 'date' | reverse %}
@@ -17,13 +10,22 @@
       {% endfor %}
     </ul>
 
-    <h2>Social</h2>
+    <h2>Technical</h2>
+    <ul>
+      {% assign tech_posts = site.categories.Technical | sort: 'date' | reverse %}
+      {% for post in tech_posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h2>Trending</h2>
     <ul>
       {% assign trending_posts = site.categories.Trending | sort: 'date' | reverse %}
       {% for post in trending_posts %}
         <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
+
   </main>
 
   <!-- Right column: Sidebar -->
@@ -43,7 +45,7 @@
     <ul>
       <li><a href="/personal/">Personal</a></li>
       <li><a href="/technical/">Technical</a></li>
-      <li><a href="/trending/">Social</a></li>
+      <li><a href="/trending/">Trending</a></li>
     </ul>
   </aside>
 </div>
