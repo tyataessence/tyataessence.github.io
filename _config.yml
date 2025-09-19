@@ -1,14 +1,18 @@
-title: TyataEssence Blog
+title: Welcome to my personal blog: TyataEssence - a space where complexity meets clarity
 author: Rakesh Tyata
 email: tyataessence@gmail.com
-description: "A blog to simplify thoughts and ideas"
-baseurl: "" # the subpath of your site, e.g. /blog
+description: "I share my thoughts and insights across Technical, Personal, and Social topics with a focus on making them easier to understand and apply. Whether it’s breaking down complex tech concepts, reflecting on personal growth, or exploring social ideas, my goal is to simplify information into practical takeaways that anyone can relate to.
+This blog is not just about sharing ideas — it’s about creating a place where readers can slow down, think clearly, and discover meaningful perspectives in a fast-moving world."
+baseurl: ""
 url: "https://tyataessence.github.io" # your GitHub Pages URL
 
-theme: minimal-mistakes-jekyll
+# Add this instead:
+remote_theme: mmistakes/minimal-mistakes@latest
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  
 paginate: 5
 paginate_path: "/page:num/"
