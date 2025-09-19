@@ -8,6 +8,4 @@ author: Rakesh Tyata
 permalink: /technical/getting-started-with-github-pages/
 ---
 
-GitHub Pages is a free hosting service for static websites directly from your GitHub repositories. 
-
-This is a placeholder post under the **Social** category. Content coming soon!
+This is a placeholder post under the **Technical** category. Content coming soon!

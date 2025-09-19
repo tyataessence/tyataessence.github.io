@@ -7,4 +7,4 @@ tags: [Sample, Trending]
 author: Rakesh Tyata
 ---
 
-This is a placeholder post under the **Personal** category. Content coming soon!
+This is a placeholder post under the **Trending** category. Content coming soon!
