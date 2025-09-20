@@ -14,30 +14,6 @@
     {% endif %}
   </div>
 
-  <div class="sidebar-section connect-section">
-    <h4>Connect</h4>
-    <ul class="sidebar-connect">
-      {% for link in site.sidebar.author.links %}
-        {% assign link_name = link[0] %}
-        {% assign link_url = link[1] %}
-        <li>
-          <a href="{{ link_url }}" target="_blank" rel="noopener">
-            {% if link_name contains 'Portfolio' %}
-              🌐
-            {% elsif link_name contains 'Youtube' %}
-              ▶️
-            {% elsif link_name contains 'Linkedin' %}
-              💼 
-            {% else %}
-              🔗
-            {% endif %}
-            {{ link_name }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-
   {% assign sorted_categories = site.categories | sort %}
   <div class="sidebar-section connect-section">
     <h4>Blog categories</h4>
@@ -53,8 +29,26 @@
   </div>
 
   <div class="sidebar-section contact-section">
-    <h4>Contact</h4>
+    <h4>Blog connect</h4>
     <ul class="sidebar-links">
+      {% for link in site.sidebar.author.links %}
+      {% assign link_name = link[0] %}
+      {% assign link_url = link[1] %}
+        <li>
+          <a href="{{ link_url }}" target="_blank" rel="noopener">
+            {% if link_name contains 'Portfolio' %}
+              🌐
+            {% elsif link_name contains 'Youtube' %}
+              ▶️
+            {% elsif link_name contains 'Linkedin' %}
+              💼 
+            {% else %}
+              🔗
+            {% endif %}
+            {{ link_name }}
+          </a>
+        </li>
+      {% endfor %}
       {% if site.sidebar.author.email %}
         <li>
           <a href="mailto:{{ site.sidebar.author.email }}">
