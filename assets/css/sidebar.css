@@ -2,7 +2,7 @@
    Sidebar Styles
 ----------------------------------- */
 .sidebar {
-  width: 15%;                 /* fixed 15% of container width */
+  width: 17%;                 /* fixed 17% of container width */
   min-width: 180px;           /* prevents it from being too small */
   flex-shrink: 0;             /* prevents shrinking */
   background-color: #f9f9f9;
