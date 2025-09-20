@@ -1,22 +1,39 @@
-<div class="container">
-  <!-- Sidebar on the left -->
-  {% include sidebar.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}">
+</head>
+<body>
 
-  <!-- Main content area -->
-  <main class="main-content">
+  <div class="container" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+    
+    <!-- Sidebar on the left -->
+    {% include sidebar.html %}
 
-    {% assign sorted_categories = site.categories | sort %}
-    {% for category in sorted_categories %}
-      <section class="category-section">
-        <h2>{{ category[0] | capitalize }}</h2>
-        <ul>
-          {% assign cat_posts = category[1] | sort: 'date' | reverse %}
-          {% for post in cat_posts %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endfor %}
+    <!-- Main post content -->
+    <main class="main-content" style="flex: 1 1 65%; padding-left: 1rem;">
+      <h1>{{ page.title }}</h1>
+      <p><small>By {{ page.author }} | {{ page.date | date: "%b %d, %Y" }}</small></p>
 
-  </main>
-</div>
+      {% assign sorted_categories = site.categories | sort %}
+      {% for category in sorted_categories %}
+        <section class="category-section">
+          <h2>{{ category[0] | capitalize }}</h2>
+          <ul>
+            {% assign cat_posts = category[1] | sort: 'date' | reverse %}
+            {% for post in cat_posts %}
+              <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endfor %}
+    </main>
+
+  </div>
+
+</body>
+</html>
