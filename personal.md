@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: default
 title: "Personal"
 category: Personal
 permalink: /personal/

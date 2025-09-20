@@ -23,4 +23,16 @@
       <li><a href="/trending/">Trending</a></li>
     </ul>
   </div>
+
+  <div class="sidebar-section">
+    <h4>Contact:</h4>
+    <ul class="sidebar-links">
+      {% if site.sidebar.author.email %}
+        <li>Email: <a href="mailto:{{ site.sidebar.author.email }}">{{ site.sidebar.author.email }}</a></li>
+      {% endif %}
+      {% if site.sidebar.author.address %}
+        <li>Address: {{ site.sidebar.author.address }}</li>
+      {% endif %}
+    </ul>
+  </div>
 </aside>

@@ -11,12 +11,14 @@ show_sidebar: true
 sidebar:
   author:
     name: "Rakesh Tyata"
-    bio: "Blogger | Developer | Thinker — making complex ideas simple, from tech to personal insights and trending stories."
+    bio: "Blogger | Developer | Thinker - Making complex ideas simple, from tech to personal insights and trending stories."
     image: "/assets/images/rakesh_headshot.jpg"  # place profile image here
+    email: "tyataessence@gmail.com"
+    address: "Seattle, WA, USA"
     links:
-      portfolio: "https://rtyata01.github.io/"
-      youtube: "https://youtube.com/tyataessence"
-      linkedin: "https://linkedin.com/in/rtyata"
+      View My Portfolio: "https://rtyata01.github.io/"
+      View My Youtube: "https://youtube.com/tyataessence"
+      View My linkedin: "https://linkedin.com/in/rtyata"
 
   categories:
     - Personal
