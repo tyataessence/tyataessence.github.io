@@ -30,17 +30,20 @@
     </ul>
   </div>
 
-  {% assign sorted_categories = site.categories | sort %}
-  <ul class="sidebar-categories">
-    {% for category in sorted_categories %}
-      <li>
-        <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
-          🔗 {{ category[0] | capitalize }}
-        </a>
-        <span class="post-count">({{ category[1].size }})</span>
-      </li>
-    {% endfor %}
-  </ul>
+  {% assign sorted_categories = site.categories | sort_natural: "first" %}
+  <div class="sidebar-section connect-section">
+    <h4>Categories</h4>
+    <ul class="sidebar-categories">
+      {% for category in sorted_categories %}
+        <li>
+          <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
+            🔗 {{ category[0] | capitalize }}
+          </a>
+          <span class="post-count">({{ category[1].size }})</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 
   <div class="sidebar-section contact-section">
     <h4>Contact</h4>

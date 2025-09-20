@@ -1,16 +1,36 @@
-<div class="container">
-  <!-- Sidebar on the left -->
-  {% include sidebar.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <!-- Include your CSS files -->
+  <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}">
+</head>
+<body>
 
-  <!-- Main post content -->
-  <main class="main-content">
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-    <ul>
-      {% assign cat_posts = site.categories[page.category] | sort: 'date' | reverse %}
-      {% for post in cat_posts %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%b %d, %Y" }}</li>
-      {% endfor %}
-    </ul>
-  </main>
-</div>
+  <div class="container">
+    <!-- Sidebar on the left -->
+    {% include sidebar.html %}
+
+    <!-- Main content on the right -->
+    <main class="main-content">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+
+      <h2>Posts in "{{ page.title }}"</h2>
+      <ul>
+        {% assign cat_posts = site.categories[page.category] | sort: 'date' | reverse %}
+        {% for post in cat_posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </main>
+  </div>
+
+</body>
+</html>
