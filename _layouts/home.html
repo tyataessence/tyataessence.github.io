@@ -1,7 +1,6 @@
-<div class="container">
-  <!-- Left column: Main content -->
-  <main class="main-content" style="width: 70%; float: left;">
-    
+<div class="container" style="display: flex; flex-wrap: wrap;">
+  <main class="main-content" style="flex: 1 1 65%;">
+
     <h2>Personal</h2>
     <ul>
       {% assign personal_posts = site.categories.Personal | sort: 'date' | reverse %}
@@ -27,27 +26,4 @@
     </ul>
 
   </main>
-
-  <!-- Right column: Sidebar -->
-  <aside class="sidebar" style="width: 28%; float: right; padding-left: 2%;">
-    <img src="{{ site.sidebar.author.image | relative_url }}" alt="{{ site.sidebar.author.name }}" style="width:100%; border-radius:50%;">
-    <h3>{{ site.sidebar.author.name }}</h3>
-    <p>{{ site.sidebar.author.bio }}</p>
-
-    <h4>Connect:</h4>
-    <ul>
-      {% for link in site.sidebar.author.links %}
-        <li><a href="{{ site.sidebar.author.links[link] }}">{{ link | capitalize }}</a></li>
-      {% endfor %}
-    </ul>
-
-    <h4>Categories</h4>
-    <ul>
-      <li><a href="/personal/">Personal</a></li>
-      <li><a href="/technical/">Technical</a></li>
-      <li><a href="/trending/">Trending</a></li>
-    </ul>
-  </aside>
 </div>
-
-<div style="clear: both;"></div>
