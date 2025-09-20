@@ -10,7 +10,7 @@
     <h4>Connect:</h4>
     <ul class="sidebar-links">
       {% for link in site.sidebar.author.links %}
-        <li><a href="{{ site.sidebar.author.links[link] }}">{{ link | capitalize }}</a></li>
+        <li><a href="{{ link[1] }}">{{ link[0] | capitalize }}</a></li>
       {% endfor %}
     </ul>
   </div>

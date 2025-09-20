@@ -2,7 +2,9 @@
    Sidebar Styles
 ----------------------------------- */
 .sidebar {
-  flex: 0 0 25%;         /* fixed 25% width */
+  width: 15%;                 /* fixed 15% of container width */
+  min-width: 180px;           /* prevents it from being too small */
+  flex-shrink: 0;             /* prevents shrinking */
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 12px;
@@ -10,6 +12,7 @@
   box-sizing: border-box;
 }
 
+/* Author Info */
 .sidebar .author-info {
   text-align: center;
   margin-bottom: 25px;
@@ -36,6 +39,7 @@
   line-height: 1.4;
 }
 
+/* Sidebar Headings */
 .sidebar h4 {
   font-size: 1rem;
   margin-bottom: 10px;
@@ -44,6 +48,7 @@
   padding-bottom: 5px;
 }
 
+/* Sidebar Links */
 .sidebar ul {
   list-style: none;
   padding-left: 0;

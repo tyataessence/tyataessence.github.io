@@ -4,21 +4,18 @@
 .container {
   display: flex;
   gap: 1.5rem;          /* spacing between sidebar and main content */
-  flex-wrap: nowrap;     /* prevent sidebar from dropping below */
   align-items: flex-start;
+  max-width: 1200px;
   margin: 0 auto;
-  max-width: 1200px;    /* optional: limit max width of page */
   padding: 1rem;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* -----------------------------------
-   Main Content Styles
------------------------------------ */
+/* Main Content Styles */
 .main-content {
-  flex: 1 1 70%;       /* take remaining space */
-  min-width: 300px;    /* prevent it from shrinking too small */
+  flex: 1;              /* takes remaining space */
+  min-width: 300px;     /* prevents collapsing */
   box-sizing: border-box;
 }
 
@@ -64,7 +61,7 @@
 
   .sidebar,
   .main-content {
-    flex: 1 1 100%;
+    width: 100%;
   }
 }
 
