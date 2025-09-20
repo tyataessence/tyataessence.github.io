@@ -1,30 +1,37 @@
-<div class="container" style="display: flex; flex-wrap: wrap;">
+<div class="container">
   <!-- Sidebar on the left -->
   {% include sidebar.html %}
 
-  <main class="main-content" style="flex: 1 1 65%;">
-    <h2>Personal</h2>
-    <ul>
-      {% assign personal_posts = site.categories.Personal | sort: 'date' | reverse %}
-      {% for post in personal_posts %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+  <!-- Main content area -->
+  <main class="main-content">
+    <section class="category-section">
+      <h2>Personal</h2>
+      <ul>
+        {% assign personal_posts = site.categories.Personal | sort: 'date' | reverse %}
+        {% for post in personal_posts %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h2>Technical</h2>
-    <ul>
-      {% assign tech_posts = site.categories.Technical | sort: 'date' | reverse %}
-      {% for post in tech_posts %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+    <section class="category-section">
+      <h2>Technical</h2>
+      <ul>
+        {% assign tech_posts = site.categories.Technical | sort: 'date' | reverse %}
+        {% for post in tech_posts %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
 
-    <h2>Trending</h2>
-    <ul>
-      {% assign trending_posts = site.categories.Trending | sort: 'date' | reverse %}
-      {% for post in trending_posts %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
+    <section class="category-section">
+      <h2>Trending</h2>
+      <ul>
+        {% assign trending_posts = site.categories.Trending | sort: 'date' | reverse %}
+        {% for post in trending_posts %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
   </main>
 </div>

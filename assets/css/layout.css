@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.main-content {
+  flex: 1 1 65%;
+  padding-left: 1rem;
+}
+
+.category-section {
+  margin-bottom: 2rem;
+}
+
+.category-section h2 {
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 3px;
+  color: #333;
+}
+
+.category-section ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+
+.category-section li {
+  margin-bottom: 5px;
+}
+
+.category-section a {
+  text-decoration: none;
+  color: #0073e6;
+  transition: color 0.2s;
+}
+
+.category-section a:hover {
+  color: #005bb5;
+  text-decoration: underline;
+}
