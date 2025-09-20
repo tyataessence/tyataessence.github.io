@@ -4,6 +4,7 @@
          alt="{{ site.sidebar.author.name }}" class="author-img">
     <h3>{{ site.sidebar.author.name }}</h3>
     <p>{{ site.sidebar.author.bio }}</p>
+    <p>{{ site.sidebar.author.desc }}</p>
   </div>
 
   <div class="sidebar-section connect-section">
@@ -39,7 +40,6 @@
           <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
             🔗 {{ category[0] | capitalize }}
           </a>
-          <span class="post-count">({{ category[1].size }})</span>
         </li>
       {% endfor %}
     </ul>
