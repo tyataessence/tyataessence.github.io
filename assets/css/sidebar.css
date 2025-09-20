@@ -69,3 +69,92 @@
   color: #005bb5;
   text-decoration: underline;
 }
+
+.contact-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.contact-section li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.contact-section li i {
+  margin-right: 8px;
+  color: #0073e6;
+}
+
+.categories-section h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #444;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.sidebar-categories {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidebar-categories li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.sidebar-categories li i {
+  margin-right: 8px;
+  color: #0073e6;
+}
+
+.sidebar-categories li .post-count {
+  margin-left: 6px;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.connect-section h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #444;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.sidebar-connect {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidebar-connect li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-connect li i {
+  margin-right: 8px;
+  color: #0073e6;
+  font-size: 1rem;
+}
+
+.sidebar-connect a {
+  text-decoration: none;
+  color: #0073e6;
+  transition: color 0.2s;
+}
+
+.sidebar-connect a:hover {
+  color: #005bb5;
+  text-decoration: underline;
+}

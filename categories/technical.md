@@ -2,7 +2,7 @@
 layout: category
 title: "Technical"
 category: Technical
-permalink: /technical/
+permalink: /categories/technical/
 ---
 
 Welcome to the **Technical** category! Here you'll find posts about programming, development tools, GitHub, Jekyll, and other technology-related topics.  

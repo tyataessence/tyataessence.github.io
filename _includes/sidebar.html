@@ -6,36 +6,58 @@
     <p>{{ site.sidebar.author.bio }}</p>
   </div>
 
-  <div class="sidebar-section">
-    <h4>Connect:</h4>
-    <ul class="sidebar-links">
+  <div class="sidebar-section connect-section">
+    <h4>Connect</h4>
+    <ul class="sidebar-connect">
       {% for link in site.sidebar.author.links %}
-        <li><a href="{{ link[1] }}">{{ link[0] | capitalize }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-  <div class="sidebar-section">
-    <h4>Categories</h4>
-    <ul class="sidebar-links">
-      {% for category in site.categories %}
+        {% assign link_name = link[0] %}
+        {% assign link_url = link[1] %}
         <li>
-          <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
-            {{ category[0] | capitalize }}
+          <a href="{{ link_url }}" target="_blank" rel="noopener">
+            {% if link_name contains 'Portfolio' %}
+              <i class="fa fa-globe"></i>
+            {% elsif link_name contains 'Youtube' %}
+              <i class="fa fa-youtube-play"></i>
+            {% elsif link_name contains 'Linkedin' %}
+              <i class="fa fa-linkedin"></i>
+            {% else %}
+              <i class="fa fa-link"></i>
+            {% endif %}
+            {{ link_name }}
           </a>
         </li>
       {% endfor %}
     </ul>
   </div>
 
-  <div class="sidebar-section">
-    <h4>Contact:</h4>
+  <div class="sidebar-section categories-section">
+    <h4>Categories</h4>
+    <ul class="sidebar-categories">
+      {% for category in site.categories %}
+        <li>
+          <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
+            <i class="fa fa-folder-open"></i> {{ category[0] | capitalize }}
+          </a>
+          <span class="post-count">({{ category[1].size }})</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="sidebar-section contact-section">
+    <h4>Contact</h4>
     <ul class="sidebar-links">
       {% if site.sidebar.author.email %}
-        <li>Email: <a href="mailto:{{ site.sidebar.author.email }}">{{ site.sidebar.author.email }}</a></li>
+        <li>
+          <a href="mailto:{{ site.sidebar.author.email }}">
+            <i class="fa fa-envelope"></i> {{ site.sidebar.author.email }}
+          </a>
+        </li>
       {% endif %}
       {% if site.sidebar.author.address %}
-        <li>Address: {{ site.sidebar.author.address }}</li>
+        <li>
+          <i class="fa fa-map-marker"></i> {{ site.sidebar.author.address }}
+        </li>
       {% endif %}
     </ul>
   </div>

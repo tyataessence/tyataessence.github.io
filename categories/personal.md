@@ -2,7 +2,7 @@
 layout: category
 title: "Personal"
 category: Personal
-permalink: /personal/
+permalink: /categories/personal/
 ---
 
 Welcome to the **Personal** category! Here you'll find posts about reflections, life experiences, productivity, and thoughts that I want to share with my readers.  

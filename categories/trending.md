@@ -2,7 +2,7 @@
 layout: category
 title: "Trending"
 category: Trending
-permalink: /trending/
+permalink: /categories/trending/
 ---
 
 Welcome to the **Trending** category! Here you'll find posts about current topics, emerging trends in technology, society, and ideas that are popular or gaining attention.  
