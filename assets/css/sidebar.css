@@ -188,15 +188,24 @@
 }
 
 .sidebar .author-desc {
-  list-style-type: disc;
-  list-style-position: inside;
-  padding-left: 0;
-  margin: 0;
+  list-style-type: disc;         /* standard bullets */
+  list-style-position: outside;  /* bullets outside text for clarity */
+  padding-left: 1.2rem;          /* indent from sidebar edge */
+  margin: 10px 0 20px 0;         /* spacing above and below list */
+  text-align: left;              /* enforce left alignment */
+  line-height: 1.6;              /* more comfortable spacing */
 }
 
 .sidebar .author-desc li {
-  font-size: 0.9rem;
-  color: #555;
-  margin-bottom: 4px;
-  line-height: 1.4;
+  font-size: 0.95rem;            /* slightly larger for readability */
+  color: #444;                   /* darker for better contrast */
+  margin-bottom: 6px;            /* more breathing room between items */
+  position: relative;            /* allows adding pseudo elements if needed */
+  padding-left: 0.2rem;          /* slight padding to align text with bullet */
 }
+
+.sidebar .author-desc li:hover {
+  color: #0073e6;
+}
+
+
