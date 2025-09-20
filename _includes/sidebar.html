@@ -15,14 +15,19 @@
     </ul>
   </div>
 
-  <div class="sidebar-section">
-    <h4>Categories</h4>
-    <ul class="sidebar-links">
-      <li><a href="/personal/">Personal</a></li>
-      <li><a href="/technical/">Technical</a></li>
-      <li><a href="/trending/">Trending</a></li>
-    </ul>
-  </div>
+<div class="sidebar-section">
+  <h4>Categories</h4>
+  <ul class="sidebar-links">
+    {% for category in site.categories %}
+      <li>
+        <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
+          {{ category[0] | capitalize }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
 
   <div class="sidebar-section">
     <h4>Contact:</h4>

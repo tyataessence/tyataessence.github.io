@@ -20,11 +20,6 @@ sidebar:
       View My Youtube: "https://youtube.com/tyataessence"
       View My linkedin: "https://linkedin.com/in/rtyata"
 
-  categories:
-    - Personal
-    - Technical
-    - Trending
-
 # Add this instead:
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 
