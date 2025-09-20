@@ -4,7 +4,14 @@
          alt="{{ site.sidebar.author.name }}" class="author-img">
     <h3>{{ site.sidebar.author.name }}</h3>
     <p>{{ site.sidebar.author.bio }}</p>
-    <p>{{ site.sidebar.author.desc }}</p>
+    
+    {% if site.sidebar.author.desc %}
+      <ul class="author-desc">
+        {% for item in site.sidebar.author.desc %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 
   <div class="sidebar-section connect-section">
@@ -33,7 +40,7 @@
 
   {% assign sorted_categories = site.categories | sort %}
   <div class="sidebar-section connect-section">
-    <h4>Categories</h4>
+    <h4>Blog categories</h4>
     <ul class="sidebar-categories">
       {% for category in sorted_categories %}
         <li>

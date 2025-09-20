@@ -12,7 +12,11 @@ sidebar:
   author:
     name: "Rakesh Tyata"
     bio: "Blogger | Developer | Thinker"
-    desc: "- Simplifying complex ideas across tech, personal insights, and trending topics."
+    desc: 
+      - "Simplifying complex ideas across tech, personal insights, and trending topics."
+      - "Sharing practical tutorials and personal reflections."
+      - "Highlighting emerging trends in technology and society."
+      - "Life may be unfair, but your happiness is in your hands."
     image: "/assets/images/rakesh_headshot.jpg"  # place profile image here
     email: "tyataessence@gmail.com"
     address: "Seattle, WA, USA"
