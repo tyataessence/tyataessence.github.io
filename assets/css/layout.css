@@ -1,6 +1,17 @@
 /* -----------------------------------
    General Container Layout
 ----------------------------------- */
+/* Wrapper for main layout and footer alignment */
+.container-wrapper {
+  max-width: 1200px;        /* or whatever max width you want for your page */
+  margin: 0 auto;            /* center horizontally */
+  padding: 1rem;             /* optional padding */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;    /* stack main container and footer vertically */
+  min-height: 100vh;         /* optional: ensures full viewport height */
+}
+
 .container {
   display: flex;
   gap: 1.5rem;          /* spacing between sidebar and main content */
