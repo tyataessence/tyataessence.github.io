@@ -1,6 +1,8 @@
 <div class="container" style="display: flex; flex-wrap: wrap;">
-  <main class="main-content" style="flex: 1 1 65%;">
+  <!-- Sidebar on the left -->
+  {% include sidebar.html %}
 
+  <main class="main-content" style="flex: 1 1 65%;">
     <h2>Personal</h2>
     <ul>
       {% assign personal_posts = site.categories.Personal | sort: 'date' | reverse %}
@@ -24,6 +26,5 @@
         <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
-
   </main>
 </div>

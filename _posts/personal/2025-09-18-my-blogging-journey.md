@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "My Blogging Journey"
 date: 2025-09-18
 categories: [Personal]

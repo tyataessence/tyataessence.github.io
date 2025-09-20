@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Tips for Blogging"
 date: 2025-09-16
 categories: [Trending]

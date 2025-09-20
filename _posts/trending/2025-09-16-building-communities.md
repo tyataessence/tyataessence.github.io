@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Building Communities"
 date: 2025-09-16
 categories: [Trending]

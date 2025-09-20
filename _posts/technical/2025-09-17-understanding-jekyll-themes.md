@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Understanding Jekyll Themes"
 date: 2025-09-17
 categories: [Technical]

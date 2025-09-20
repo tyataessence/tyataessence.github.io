@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Work-Life Balance"
 date: 2025-09-16
 categories: [Trending]

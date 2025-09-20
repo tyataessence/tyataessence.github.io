@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Technology and Society"
 date: 2025-09-18
 categories: [Trending]

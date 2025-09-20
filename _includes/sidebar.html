@@ -1,0 +1,30 @@
+<aside class="sidebar" style="
+  flex: 0 0 30%;
+  background: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-right: 2%;
+">
+  <div style="text-align: center;">
+    <img src="{{ site.sidebar.author.image | relative_url }}" 
+         alt="{{ site.sidebar.author.name }}" 
+         style="width: 80px; height: 80px; border-radius: 50%; margin-bottom: 10px;">
+    <h3 style="margin: 5px 0;">{{ site.sidebar.author.name }}</h3>
+    <p style="font-size: 0.9rem; color: #555;">{{ site.sidebar.author.bio }}</p>
+  </div>
+
+  <h4>Connect:</h4>
+  <ul style="list-style: none; padding-left: 0;">
+    {% for link in site.sidebar.author.links %}
+      <li><a href="{{ site.sidebar.author.links[link] }}">{{ link | capitalize }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h4>Categories</h4>
+  <ul style="list-style: none; padding-left: 0;">
+    <li><a href="/personal/">Personal</a></li>
+    <li><a href="/technical/">Technical</a></li>
+    <li><a href="/trending/">Trending</a></li>
+  </ul>
+</aside>

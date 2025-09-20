@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Exploring GitHub Pages"
 date: 2025-09-18
 categories: [Technical]

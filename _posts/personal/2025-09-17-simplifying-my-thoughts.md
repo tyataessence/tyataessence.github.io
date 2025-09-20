@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Simplifying My Thoughts"
 date: 2025-09-17
 categories: [Personal]

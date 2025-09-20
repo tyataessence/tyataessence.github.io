@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Getting Started with GitHub Pages"
 date: 2025-09-16
 categories: [Technical]
