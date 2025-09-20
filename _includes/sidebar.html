@@ -30,20 +30,17 @@
     </ul>
   </div>
 
-
-  <div class="sidebar-section categories-section">
-    <h4>Categories</h4>
-    <ul class="sidebar-categories">
-      {% for category in site.categories %}
-        <li>
-          <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
-            🔗 {{ category[0] | capitalize }}
-          </a>
-          <span class="post-count">({{ category[1].size }})</span>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+  {% assign sorted_categories = site.categories | sort %}
+  <ul class="sidebar-categories">
+    {% for category in sorted_categories %}
+      <li>
+        <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
+          🔗 {{ category[0] | capitalize }}
+        </a>
+        <span class="post-count">({{ category[1].size }})</span>
+      </li>
+    {% endfor %}
+  </ul>
 
   <div class="sidebar-section contact-section">
     <h4>Contact</h4>
@@ -51,13 +48,13 @@
       {% if site.sidebar.author.email %}
         <li>
           <a href="mailto:{{ site.sidebar.author.email }}">
-            ✉️ {{ site.sidebar.author.email }}
+            ✉️{{ site.sidebar.author.email }}
           </a>
         </li>
       {% endif %}
       {% if site.sidebar.author.address %}
         <li>
-          📍 {{ site.sidebar.author.address }}
+          📍{{ site.sidebar.author.address }}
         </li>
       {% endif %}
     </ul>
