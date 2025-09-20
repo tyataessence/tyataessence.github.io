@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: category
 title: "Technical"
 category: Technical
 permalink: /technical/
