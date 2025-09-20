@@ -1,44 +1,42 @@
+/* -----------------------------------
+   Sidebar Styles
+----------------------------------- */
 .sidebar {
-  flex: 0 0 30%;
-  background-color: #ffffff;
-  padding: 25px;
+  flex: 0 0 25%;         /* fixed 25% width */
+  background-color: #f9f9f9;
+  padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-right: 2%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  box-sizing: border-box;
 }
 
-.author-info {
+.sidebar .author-info {
   text-align: center;
   margin-bottom: 25px;
 }
 
-.author-img {
+.sidebar .author-img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  margin-bottom: 10px;
   object-fit: cover;
+  margin-bottom: 10px;
   border: 2px solid #ddd;
 }
 
-.author-info h3 {
+.sidebar .author-info h3 {
   margin: 5px 0;
   font-size: 1.2rem;
   color: #333;
 }
 
-.author-info p {
+.sidebar .author-info p {
   font-size: 0.9rem;
   color: #666;
   line-height: 1.4;
 }
 
-.sidebar-section {
-  margin-bottom: 20px;
-}
-
-.sidebar-section h4 {
+.sidebar h4 {
   font-size: 1rem;
   margin-bottom: 10px;
   color: #444;
@@ -46,23 +44,23 @@
   padding-bottom: 5px;
 }
 
-.sidebar-links {
+.sidebar ul {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
-.sidebar-links li {
+.sidebar li {
   margin-bottom: 8px;
 }
 
-.sidebar-links a {
+.sidebar a {
   text-decoration: none;
   color: #0073e6;
   transition: color 0.2s;
 }
 
-.sidebar-links a:hover {
+.sidebar a:hover {
   color: #005bb5;
   text-decoration: underline;
 }
-
