@@ -34,12 +34,12 @@
     <h3>{{ site.sidebar.author.name }}</h3>
     <p>{{ site.sidebar.author.bio }}</p>
 
-    <h4>Connect:</h4>
-    <ul>
-      {% for key, url in site.sidebar.author.links %}
-        <li><a href="{{ url }}">{{ key | capitalize }}</a></li>
-      {% endfor %}
-    </ul>
+  <h4>Connect:</h4>
+  <ul>
+    {% for link in site.sidebar.author.links %}
+      <li><a href="{{ link[1] }}">{{ link[0] | capitalize }}</a></li>
+    {% endfor %}
+  </ul>
 
     <h4>Categories</h4>
     <ul>
