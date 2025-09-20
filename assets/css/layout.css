@@ -51,6 +51,43 @@
 }
 
 /* -----------------------------------
+   Welcome Section
+----------------------------------- */
+.welcome-section {
+  background-color: #f0f8ff;  /* subtle light background */
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.welcome-section p {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* -----------------------------------
+   Blog Description Section
+----------------------------------- */
+.blog-desc {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #0073e6;  /* accent color */
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.blog-desc p {
+  margin: 0;
+}
+
+/* -----------------------------------
    Responsive Design
 ----------------------------------- */
 @media (max-width: 1024px) {
@@ -78,3 +115,12 @@
     font-size: 1.1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .welcome-section,
+  .blog-desc {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+}
+
