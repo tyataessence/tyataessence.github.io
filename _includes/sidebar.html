@@ -15,13 +15,13 @@
         <li>
           <a href="{{ link_url }}" target="_blank" rel="noopener">
             {% if link_name contains 'Portfolio' %}
-              <i class="fa fa-globe"></i>
+              🌐
             {% elsif link_name contains 'Youtube' %}
-              <i class="fa fa-youtube-play"></i>
+              ▶️
             {% elsif link_name contains 'Linkedin' %}
-              <i class="fa fa-linkedin"></i>
+              💼 
             {% else %}
-              <i class="fa fa-link"></i>
+              🔗
             {% endif %}
             {{ link_name }}
           </a>
@@ -30,13 +30,14 @@
     </ul>
   </div>
 
+
   <div class="sidebar-section categories-section">
     <h4>Categories</h4>
     <ul class="sidebar-categories">
       {% for category in site.categories %}
         <li>
           <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
-            <i class="fa fa-folder-open"></i> {{ category[0] | capitalize }}
+            🔗 {{ category[0] | capitalize }}
           </a>
           <span class="post-count">({{ category[1].size }})</span>
         </li>
@@ -50,13 +51,13 @@
       {% if site.sidebar.author.email %}
         <li>
           <a href="mailto:{{ site.sidebar.author.email }}">
-            <i class="fa fa-envelope"></i> {{ site.sidebar.author.email }}
+            ✉️ {{ site.sidebar.author.email }}
           </a>
         </li>
       {% endif %}
       {% if site.sidebar.author.address %}
         <li>
-          <i class="fa fa-map-marker"></i> {{ site.sidebar.author.address }}
+          📍 {{ site.sidebar.author.address }}
         </li>
       {% endif %}
     </ul>
