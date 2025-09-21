@@ -11,7 +11,7 @@ author: Rakesh Tyata
 
 Let me introduce myself — I’m a proud Nepali, born in Bhaktapur, Nepal, and I currently live in Seattle, Washington. I have a background in Computer Engineering, and I came to the U.S. in February 2008 to pursue my Master’s degree in Computer Science. I was fortunate to spend 15 years working at Microsoft, and I’m now dedicating my time to exploring new journeys and sharing insights I’ve gathered along the way. 
 
-To add, I’m married and blessed with a beautiful 5-year-old daughter, who brings job, laughter and a little chaos into my everyday life — like the festival of colors "Holi", bringing energy, laughter, and a splash of excitement.
+To add, I’m married and blessed with a beautiful 5-year-old daughter, who brings job, laughter and a little chaos into my everyday life — like the festival of colors "Holi, bringing energy, laughter, and a splash of excitement.
 
 **💡 Why TyataEssence?**
 The name reflects what I want this channel to be:

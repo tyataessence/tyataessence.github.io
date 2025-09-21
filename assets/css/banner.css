@@ -1,0 +1,17 @@
+.site-banner {
+  background: linear-gradient(135deg, #4A90E2, #7B4397); /* or use an image */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.site-banner h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.site-banner p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
