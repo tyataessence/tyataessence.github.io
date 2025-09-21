@@ -13,6 +13,12 @@
   justify-content: center;    /* vertically center text inside */
 }
 
+.site-banner img {
+  width: 100%;
+  height: 200px;        /* same fixed height */
+  object-fit: cover;    /* crop image neatly */
+}
+
 .site-banner h1 {
   margin: 0;
   font-size: 2.5rem;
