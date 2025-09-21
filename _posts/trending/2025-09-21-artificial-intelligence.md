@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "What is Artificial Intelligence"
+title: "What is Artificial Intelligence?"
 date: 2025-09-21
-categories: [Technical]
-tags: [Artificial, Intelligence, Technical]
+categories: [Trending]
+tags: [Artificial, Intelligence, Trending]
 author: Rakesh Tyata
-permalink: /technical/getting-started-with-github-pages/
 ---
 
 # <span style="color:#1f77b4;">Artificial Intelligence (AI)</span>
