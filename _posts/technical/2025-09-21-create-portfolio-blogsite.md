@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to create free portfolio and blogsite using github."
+title: "How to Create a Free Portfolio and Blogsite Using GitHub?"
 date: 2025-09-21
 categories: [Technical]
 tags: [portfolio, blogsite, Technical]
@@ -14,14 +14,7 @@ In tech industry, we often talk about **technical debts**, when engineering syst
 - A portfolio helps to highlight your work samples, projects and accomplishments demonstrating your skills.
 - A blogsite helps to capture and share your posts on tech tutorials, coding guides, trending standards and topics demonstrating your learnings and interest.
 
-- This repository is designed as a **personal portfolio website**.
-- Showcases professional background, technical skills, and projects.
-- Built using **Jekyll**, a static site generator:
-- Processes Markdown files and templates to generate static HTML pages.
-- Does not require a backend server.
-- Lightweight, fast-loading, and easy to maintain.
-
-## Prerequisite Fundamentals
+## Fundamental
 
 - **Markdown:** A lightweight markup language to format text (headings, lists, links) easily. Learn more: https://www.markdownguide.org
 - **GitHub:** A platform for version control and hosting code repositories online. Learn more: https://docs.github.com/en/get-started/quickstart
