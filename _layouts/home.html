@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/layout.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/banner.css' | relative_url }}">
 </head>
+
 <body>
+  <div class="container-wrapper">
+    <div class="site-banner">
+      <img src="{{ '/assets/images/banner.jpg' | relative_url }}"
+        alt="Explore, Learn, Simplify & Grow Together - @TyataEssence"
+        title="Explore, Learn, Simplify & Grow Together - @TyataEssence">
+    </div>
+    <div class="container" style="display: flex; flex-wrap: wrap; gap: 1rem;">
 
-  <div class="container" style="display: flex; flex-wrap: wrap; gap: 1rem;">
-    
-    <!-- Sidebar on the left -->
-    {% include sidebar.html %}
+      <!-- Sidebar on the left -->
+      {% include sidebar.html %}
 
-    <!-- Main post content -->
-    <main class="main-content" style="flex: 1 1 65%; padding-left: 1rem;">
-      <h1>{{ page.title }}</h1>
+      <!-- Main post content -->
+      <main class="main-content" style="flex: 1 1 65%; padding-left: 1rem;">
+        <h1>{{ page.title }}</h1>
 
-      <!-- Welcome Section -->
-      {% if page.welcome %}
+        <!-- Welcome Section -->
+        {% if page.welcome %}
         <section class="welcome-section">
           <p>{{ page.welcome }}</p>
         </section>
-      {% endif %}
+        {% endif %}
 
-      <!-- Blog Description -->
-      {% if page.desc %}
+        <!-- Blog Description -->
+        {% if page.desc %}
         <section class="blog-desc">
           <p>{{ page.desc }}</p>
         </section>
-      {% endif %}
+        {% endif %}
 
-      {% assign sorted_categories = site.categories | sort %}
-      {% for category in sorted_categories %}
+        {% assign sorted_categories = site.categories | sort %}
+        {% for category in sorted_categories %}
         <section class="category-section">
           <h2>{{ category[0] | capitalize }}</h2>
           <ul>
             {% assign cat_posts = category[1] | sort: 'date' | reverse %}
             {% for post in cat_posts %}
-              <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
             {% endfor %}
           </ul>
         </section>
-      {% endfor %}
-    </main>
+        {% endfor %}
+      </main>
+    </div>
   </div>
-
 </body>
+
 </html>

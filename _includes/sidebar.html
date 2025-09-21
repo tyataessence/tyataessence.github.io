@@ -1,16 +1,15 @@
 <aside class="sidebar">
   <div class="author-info">
-    <img src="{{ site.sidebar.author.image | relative_url }}" 
-         alt="{{ site.sidebar.author.name }}" class="author-img">
+    <img src="{{ site.sidebar.author.image | relative_url }}" alt="{{ site.sidebar.author.name }}" class="author-img">
     <h3>{{ site.sidebar.author.name }}</h3>
     <p>{{ site.sidebar.author.bio }}</p>
-    
+
     {% if site.sidebar.author.desc %}
-      <ul class="author-desc">
-        {% for item in site.sidebar.author.desc %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
+    <ul class="author-desc">
+      {% for item in site.sidebar.author.desc %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
     {% endif %}
   </div>
 
@@ -19,11 +18,11 @@
     <h4>Blog categories</h4>
     <ul class="sidebar-categories">
       {% for category in sorted_categories %}
-        <li>
-          <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
-            🔗 {{ category[0] | capitalize }}
-          </a>
-        </li>
+      <li>
+        <a href="{{ '/categories/' | append: category[0] | downcase | append: '/' | relative_url }}">
+          🔗 {{ category[0] | capitalize }}
+        </a>
+      </li>
       {% endfor %}
     </ul>
   </div>
@@ -34,32 +33,32 @@
       {% for link in site.sidebar.author.links %}
       {% assign link_name = link[0] %}
       {% assign link_url = link[1] %}
-        <li>
-          <a href="{{ link_url }}" target="_blank" rel="noopener">
-            {% if link_name contains 'Portfolio' %}
-              🌐
-            {% elsif link_name contains 'Youtube' %}
-              ▶️
-            {% elsif link_name contains 'Linkedin' %}
-              💼 
-            {% else %}
-              🔗
-            {% endif %}
-            {{ link_name }}
-          </a>
-        </li>
+      <li>
+        <a href="{{ link_url }}" target="_blank" rel="noopener">
+          {% if link_name contains 'Portfolio' %}
+          🌐
+          {% elsif link_name contains 'Youtube' %}
+          ▶️
+          {% elsif link_name contains 'Linkedin' %}
+          💼
+          {% else %}
+          🔗
+          {% endif %}
+          {{ link_name }}
+        </a>
+      </li>
       {% endfor %}
       {% if site.sidebar.author.email %}
-        <li>
-          <a href="mailto:{{ site.sidebar.author.email }}">
-            ✉️ {{ site.sidebar.author.email }}
-          </a>
-        </li>
+      <li>
+        <a href="mailto:{{ site.sidebar.author.email }}">
+          ✉️ {{ site.sidebar.author.email }}
+        </a>
+      </li>
       {% endif %}
       {% if site.sidebar.author.address %}
-        <li>
-          📍 {{ site.sidebar.author.address }}
-        </li>
+      <li>
+        📍 {{ site.sidebar.author.address }}
+      </li>
       {% endif %}
     </ul>
   </div>

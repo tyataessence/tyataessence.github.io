@@ -1,12 +1,8 @@
 .site-banner {
-  background: linear-gradient(135deg, #4A90E2, #7B4397); /* or use an image */
-  padding: 25px 25px;         /* same padding as footer */
+  padding: 5px 5px;         /* same padding as footer */
   text-align: center; 
   color: #333; 
   font-size: 1rem;
-  border-bottom: 1px solid #ddd; /* mirror footer’s border-top */
-  
-  /* Fixed height if you want */
   height: 200px;              /* pick a consistent height */
   display: flex;
   flex-direction: column;
