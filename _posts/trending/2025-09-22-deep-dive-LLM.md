@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "What is LLM?
+title: "What is LLM?"
 date: 2025-09-22
 categories: [Trending]
 tags: [LLM, Tensor, Trending]
@@ -37,8 +37,7 @@ A **tensor** is a multi-dimensional array (1D = vector, 2D = matrix, 3D+ = highe
    Break user input into tokens (IDs).
 
 2. 🎨 **Embedding Lookup**  
-   Each token ID → learned vector (embedding).  
-   _(Embedding matrix = part of model’s weights)_
+   Convert Each token ID → learned vector (embedding).
 
 3. ⚙️ **Pass Through Layers**
 
