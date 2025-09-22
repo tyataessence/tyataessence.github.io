@@ -93,4 +93,4 @@ A **tensor** is a multi-dimensional array (1D = vector, 2D = matrix, 3D+ = highe
 - **Layers** = building blocks that transform input tensors into output tensors.
 - **Tensors** = the core data structure for weights, inputs, and activations in neural networks.
 - **Without a vector DB**: The LLM relies solely on its **internal weights**. Everything is just math → embeddings → transformer layers → next token.
-- **With a vector DB**: The LLM **augments the prompt** by retrieving relevant external data (via embeddings + similarity search) before generating an answer. This produces a more **grounded response**.
+- **With a vector DB**: The LLM **augments the prompt** by retrieving relevant external data (via embeddings + similarity search) before generating an answer.
