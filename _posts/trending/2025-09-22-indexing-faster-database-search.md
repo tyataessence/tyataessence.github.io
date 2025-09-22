@@ -21,7 +21,7 @@ This post will explain **how different types of databases use indexing** to spee
 - Columns are indexed (B-Tree or Hash) to quickly locate rows.  
 - Perfect for structured tables with clearly defined columns.
 
-![DB Index]({{ '/_post/images/db_index.jpg' | relative_url }})
+![DB Index]({{ '/_posts/images/db_index.jpg' | relative_url }})
 
 **Analogy:**  
 - Book index → instantly jump to the page you want.
@@ -37,7 +37,7 @@ This post will explain **how different types of databases use indexing** to spee
 **Analogy:**  
 - Address book or map grid → find a starting point, then explore relationships.
 
-![Graph Index]({{ '/_post/images/graph_index.jpg' | relative_url }})
+![Graph Index]({{ '/_posts/images/graph_index.jpg' | relative_url }})
 ---
 
 ## 3️⃣ Vector Databases (Pinecone, Weaviate, Milvus)
@@ -46,7 +46,7 @@ This post will explain **how different types of databases use indexing** to spee
 - Store numerical embeddings (vectors).  
 - Use **Approximate Nearest Neighbor (ANN)** indexes to find similar items quickly.
 
-![VectorDB Index]({{ '/_post/images/vectordb_index.jpg' | relative_url }})
+![VectorDB Index]({{ '/_posts/images/vectordb_index.jpg' | relative_url }})
 
 **Analogy:**  
 - Map of dots → jump to the closest neighborhood instead of scanning all points.
@@ -87,7 +87,7 @@ This post will explain **how different types of databases use indexing** to spee
 ```
 ---
 
-> 🧠 **Key Takeaway:** Indexes act as **shortcuts**. Whether in SQL, graphs, vectors, or NoSQL systems, they drastically reduce search time and make queries efficient.
+🧠 **Key Takeaway:** Indexes act as **shortcuts**. Whether in SQL, graphs, vectors, or NoSQL systems, they drastically reduce search time and make queries efficient.
 
 
 
