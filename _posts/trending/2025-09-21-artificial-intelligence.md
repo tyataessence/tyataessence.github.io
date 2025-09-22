@@ -74,27 +74,43 @@ Artificial Intelligence (AI)
  └── Machine Learning (ML) - Machines learn patterns from data without explicit programming
       ├── Supervised Learning - Learn from labeled examples to predict outcomes
       │     ├── Concept: Learn from labeled data
-      │     ├── Types / Algorithms: Regression (Linear, Logistic) - Predict continuous or categorical outcomes, Decision Trees - Split data for predictions, SVM - Classify with hyperplanes, kNN - Classify based on nearest neighbors
+      │     ├── Types / Algorithms:
+      │     │     ├── Regression (Linear, Logistic) - Predict continuous or categorical outcomes
+      │     │     ├── Decision Trees - Split data for predictions
+      │     │     ├── SVM - Classify with hyperplanes
+      │     │     └── kNN - Classify based on nearest neighbors
       │     └── Examples: Predicting house prices, spam detection
       │
       ├── Unsupervised Learning - Discover hidden patterns in unlabeled data
       │     ├── Concept: Find patterns without labels
-      │     ├── Types / Algorithms: Clustering (K-Means, Hierarchical) - Group similar data, Dimensionality Reduction (PCA, t-SNE) - Reduce features, Anomaly Detection - Detect unusual data points
+      │     ├── Types / Algorithms:
+      │     │     ├── Clustering (K-Means, Hierarchical) - Group similar data
+      │     │     ├── Dimensionality Reduction (PCA, t-SNE) - Reduce features
+      │     │     └── Anomaly Detection - Detect unusual data points
       │     └── Examples: Customer segmentation, fraud detection
       │
       ├── Neural Networks (NN) - Models inspired by the brain for pattern recognition
       │     ├── Concept: Algorithms inspired by the brain
-      │     ├── Types: Feedforward NN - Basic layered network, CNN - Processes images, RNN (LSTM, GRU) - Processes sequences
+      │     ├── Types:
+      │     │     ├── Feedforward NN - Basic layered network
+      │     │     ├── CNN - Processes images
+      │     │     └── RNN (LSTM, GRU) - Processes sequences
       │     └── Examples: Handwriting recognition, image classification
       │
-      │     └── Deep Learning (DL) - Neural networks with many layers for complex patterns
-      │           ├── Concept: Neural networks with many layers
-      │           ├── Types: CNN (images), RNN / LSTM / GRU (sequences), Transformers (text), Autoencoders (compress data)
-      │           └── Examples: Face recognition, voice assistants, GPT models
+      ├── Deep Learning (DL) - Neural networks with many layers for complex patterns
+      │     ├── Concept: Neural networks with many layers
+      │     ├── Types:
+      │     │     ├── CNN (images)
+      │     │     ├── RNN / LSTM / GRU (sequences)
+      │     │     ├── Transformers (text)
+      │     │     └── Autoencoders (compress data)
+      │     └── Examples: Face recognition, voice assistants, GPT models
       │
       └── Reinforcement Learning (RL) - Learn by trial and error with rewards
             ├── Concept: Learn by trial & error using rewards
-            ├── Types: Value-based (Q-Learning, SARSA) - Learn state values, Policy-based (Policy Gradient) - Learn action policies, Actor-Critic - Combines both approaches
-            ├── Terminology: Agent - Learner, Environment - World, State - Situation, Action - Move, Reward - Feedback, Inference - Decide next step
+            ├── Types:
+            │     ├── Value-based (Q-Learning, SARSA) - Learn state values
+            │     ├── Policy-based (Policy Gradient) - Learn action policies
+            │     └── Actor-Critic - Combines both approaches
             └── Examples: AlphaGo, robot navigation, Deep RL using neural networks
 ```
