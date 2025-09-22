@@ -3,7 +3,7 @@ layout: default
 title: "What is LLM?
 date: 2025-09-21
 categories: [Trending]
-tags: [Artificial, Intelligence, Trending]
+tags: [LLM, Tensor, Trending]
 author: Rakesh Tyata
 ---
 
