@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "What is LLM?
-date: 2025-09-21
+date: 2025-09-22
 categories: [Trending]
 tags: [LLM, Tensor, Trending]
 author: Rakesh Tyata
