@@ -1,19 +1,13 @@
 ---
 layout: default
-title: "Indexing for Faster Database Search"
+title: "Indexing for Faster Database Search."
 date: 2025-09-22
 categories: [Trending]
 tags: [Database, SQL, NOSQL, Vector, Graph, DynamoDB, CosmosDB, CassandraDB, Trending]
 author: Rakesh Tyata
 ---
 
-# A Beginner’s Guide to Indexing for Faster Database Search
-
 *Learn how SQL, Graph, Vector, and NoSQL databases use indexes to speed up queries — with simple visuals and examples.*
-
----
-
-## Introduction
 
 Searching through a database without an index is like trying to find a word in a book by reading every page — slow and frustrating. Indexing acts like a **shortcut or map**, letting the database jump directly to the data you need.  
 
@@ -27,7 +21,7 @@ This post will explain **how different types of databases use indexing** to spee
 - Columns are indexed (B-Tree or Hash) to quickly locate rows.  
 - Perfect for structured tables with clearly defined columns.
 
-![DB Index](../images/db_index.jpg)
+![DB Index]({{ '/assets/images/posts/db_index.jpg' | relative_url }})
 
 **Analogy:**  
 - Book index → instantly jump to the page you want.
@@ -43,7 +37,7 @@ This post will explain **how different types of databases use indexing** to spee
 **Analogy:**  
 - Address book or map grid → find a starting point, then explore relationships.
 
-![Graph Index](../images/graph_index.jpg)
+![Graph Index]({{ '/assets/images/posts/graph_index.jpg' | relative_url }})
 ---
 
 ## 3️⃣ Vector Databases (Pinecone, Weaviate, Milvus)
@@ -52,7 +46,7 @@ This post will explain **how different types of databases use indexing** to spee
 - Store numerical embeddings (vectors).  
 - Use **Approximate Nearest Neighbor (ANN)** indexes to find similar items quickly.
 
-![VectorDB Index](../images/vectordb_index.jpg)
+![VectorDB Index]({{ '/assets/images/posts/vectordb_index.jpg' | relative_url }})
 
 **Analogy:**  
 - Map of dots → jump to the closest neighborhood instead of scanning all points.
