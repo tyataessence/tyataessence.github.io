@@ -34,10 +34,11 @@ This post will explain **how different types of databases use indexing** to spee
 - Index node properties (like `name`) to quickly locate starting points.  
 - For spatial data, use **Geohashing** or **Quadtrees** for fast location queries.
 
+![Graph Index]({{ '/assets/images/graph_index.jpg' | relative_url }})
+
 **Analogy:**  
 - Address book or map grid → find a starting point, then explore relationships.
 
-![Graph Index]({{ '/assets/images/graph_index.jpg' | relative_url }})
 ---
 
 ## 3️⃣ Vector Databases (Pinecone, Weaviate, Milvus)
