@@ -16,6 +16,7 @@ I've been a long-time follower of Vijay Kumar Pandey — his reflections, and st
 <span style="color:#D35400">Struggle with addiction, imperfection & vulnerability</span>
 
 - The book begins with the author’s own severe alcohol addiction. This is not just a confessional moment but used as a metaphor: the idea that one must confront one’s dark side, one’s weakness, before one can find deeper insight or peace.
+- I agree here. When we recognize our imperfections, open ourselves to new perspectives, and learn to listen deeply, then we become truely effective. Vulnerability isn’t a weakness — it’s the doorway to growth and connection. 
 
 <span style="color:#D35400">Identity – name vs self</span>
 
