@@ -7,7 +7,7 @@ tags: [Happiness, Khusi, Personal]
 author: Rakesh Tyata
 ---
 
-I've been a long-time follower of Vijay Kumar Pandey — his reflections, and storytelling always resonate deeply, must like my eldest brother, who dedicated his entire life to educating others as a teacher, principal and professor.
+I've been a long-time follower of Vijay Kumar Pandey — his reflections, and storytelling always resonate deeply, much like my eldest brother, who dedicated his entire life on educating and guiding others as a teacher, principal and professor spanning nearly four decades - 40 years.
 
 Khusi isn’t just a memoir — it’s a mirror. It reminds us that real happiness doesn’t come from chasing society’s version of success, but from embracing our imperfections and finding meaning in the flow of life itself.
 

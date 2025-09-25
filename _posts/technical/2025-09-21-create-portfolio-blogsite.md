@@ -16,10 +16,10 @@ In tech industry, we often talk about **technical debts**, when engineering syst
 
 ## Fundamental
 
-- **Markdown:** A lightweight markup language to format text (headings, lists, links) easily. Learn more: https://www.markdownguide.org
-- **GitHub:** A platform for version control and hosting code repositories online. Learn more: https://docs.github.com/en/get-started/quickstart
-- **HTML:** The standard language to create and structure web pages. Learn more: https://developer.mozilla.org/en-US/docs/Web/HTML
-- **CSS:** A language used to style HTML elements and design web pages. Learn more: https://developer.mozilla.org/en-US/docs/Web/CSS
+- **Markdown:** A lightweight markup language to format text (headings, lists, links) easily. [How it works:](https://www.markdownguide.org)
+- **GitHub:** A platform for version control and hosting code repositories online. [How it works:](https://docs.github.com/en/get-started/quickstart)
+- **HTML:** The standard language to create and structure web pages. [How it works:](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- **CSS:** A language used to style HTML elements and design web pages. [How it works:](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## How to create portfolio in github?
 

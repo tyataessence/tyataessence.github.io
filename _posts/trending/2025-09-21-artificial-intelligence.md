@@ -9,7 +9,7 @@ author: Rakesh Tyata
 
 # <span style="color:#1f77b4;">Artificial Intelligence (AI)</span>
 
-Artificial Intelligence is the sceiene and technology of creating computer systems, that makes machines "intelligent" with ability to learn, understand and apply knowledge. When you see a cloudy sky, your brain predicts whether it might rain — that’s your natural intelligence at work. Similarly, Artificial Intelligence (AI) is about making machines act smart like the human brain: learning, reasoning, solving problems, understanding language, recognizing images, and making decisions.
+Artificial Intelligence is the science and technology of creating computer systems, that makes machines "intelligent" with ability to learn, understand and apply knowledge. When you see a cloudy sky, your brain predicts whether it might rain — that’s your natural intelligence at work. Similarly, Artificial Intelligence (AI) is about making machines act smart like the human brain: learning, reasoning, solving problems, understanding language, recognizing images, and making decisions.
 
 💡 Let me further break down this concept, by comparing with Pet Dog.
 
