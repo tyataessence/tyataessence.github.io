@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Key Points from Khusi (Happiness), By Vijaya Kumar Pandey!"
+title: "Key Insights from Khusi (Happiness), By Vijaya Kumar Pandey!"
 date: 2025-09-24
 categories: [Personal]
 tags: [TyataEssence, Personal]
