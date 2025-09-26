@@ -21,7 +21,7 @@ I like this book because it’s not about quick hacks — it’s about habits th
 
 _(Moving from Dependence → Independence)_
 
-### <span style="color:#228B22">Habit 1: Be Proactive</span>
+### <span style="color:#228B22">1. Be Proactive</span>
 
 - Take initiative in life.
 - Realize **decisions, not conditions**, shape your effectiveness.
@@ -31,7 +31,7 @@ _(Moving from Dependence → Independence)_
 
 ---
 
-### <span style="color:#228B22">Habit 2: Begin with the End in Mind</span>
+### <span style="color:#228B22">2. Begin with the End in Mind</span>
 
 - Clarify **values and life goals**.
 - Envision ideal roles & relationships.
@@ -41,7 +41,7 @@ _(Moving from Dependence → Independence)_
 
 ---
 
-### <span style="color:#228B22">Habit 3: Put First Things First</span>
+### <span style="color:#228B22">3. Put First Things First</span>
 
 - Prioritize based on **importance, not urgency**.
 - Plan & execute around goals and values.
@@ -55,7 +55,7 @@ _(Moving from Dependence → Independence)_
 
 _(Working Effectively with Others)_
 
-### <span style="color:#FF8C00">Habit 4: Think Win-Win</span>
+### <span style="color:#FF8C00">4. Think Win-Win</span>
 
 - Seek **mutually beneficial solutions**.
 - Value people and respect relationships.
@@ -65,7 +65,7 @@ _(Working Effectively with Others)_
 
 ---
 
-### <span style="color:#FF8C00">Habit 5: Seek First to Understand, Then to Be Understood</span>
+### <span style="color:#FF8C00">5. Seek First to Understand, Then to Be Understood</span>
 
 - Practice **empathic listening**.
 - Let others influence you genuinely.
@@ -75,7 +75,7 @@ _(Working Effectively with Others)_
 
 ---
 
-### <span style="color:#FF8C00">Habit 6: Synergize</span>
+### <span style="color:#FF8C00">6. Synergize</span>
 
 - Leverage **teamwork and strengths**.
 - Encourage **creative cooperation**.
@@ -89,7 +89,7 @@ _(Working Effectively with Others)_
 
 _(Sustaining Growth and Balance)_
 
-### <span style="color:#DC143C">Habit 7: Sharpen the Saw</span>
+### <span style="color:#DC143C">7. Sharpen the Saw</span>
 
 - Renew **body** (exercise, health).
 - Renew **mind** (reading, learning).
