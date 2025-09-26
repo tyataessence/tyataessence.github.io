@@ -2,8 +2,8 @@
 layout: default
 title: "Key Insights: Muna Madan, By Laxmi Prasad Devkota!"
 date: 2025-09-23
-categories: [Personal]
-tags: [Migration, Love, Sacrifice, Emptiness, Compassion, Personal]
+categories: [Insights]
+tags: [Migration, Love, Sacrifice, Emptiness, Compassion, Insights]
 author: Rakesh Tyata
 ---
 

@@ -2,8 +2,8 @@
 layout: default
 title: "Key Insights: Leadership and Self-Deception, By Arbinger Institute!"
 date: 2025-09-24
-categories: [Personal]
-tags: [Leadership, Self-Deception, Personal]
+categories: [Insights]
+tags: [Leadership, Self-Deception, Insights]
 author: Rakesh Tyata
 ---
 

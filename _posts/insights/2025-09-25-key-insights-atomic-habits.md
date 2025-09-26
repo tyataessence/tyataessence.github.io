@@ -2,8 +2,8 @@
 layout: default
 title: "Key Insights: Atomic Habits, By James Clear!"
 date: 2025-09-25
-categories: [Personal]
-tags: [Atomic, Habit, Success, Steps, Personal]
+categories: [Insights]
+tags: [Atomic, Habit, Success, Steps, Insights]
 author: Rakesh Tyata
 ---
 

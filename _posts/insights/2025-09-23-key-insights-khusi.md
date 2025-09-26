@@ -2,8 +2,8 @@
 layout: default
 title: "Key Insights: Khusi (Happiness), By Vijaya Kumar Pandey!"
 date: 2025-09-23
-categories: [Personal]
-tags: [Happiness, Khusi, Personal]
+categories: [Insights]
+tags: [Happiness, Khusi, Insights]
 author: Rakesh Tyata
 ---
 

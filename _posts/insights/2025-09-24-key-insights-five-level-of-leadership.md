@@ -2,8 +2,8 @@
 layout: default
 title: "Key Insights: The 5 Levels of Leadership, By John C. Maxwell!"
 date: 2025-09-24
-categories: [Personal]
-tags: [Levels, Leadership, Leader, Personal]
+categories: [Insights]
+tags: [Levels, Leadership, Leader, Insights]
 author: Rakesh Tyata
 ---
 

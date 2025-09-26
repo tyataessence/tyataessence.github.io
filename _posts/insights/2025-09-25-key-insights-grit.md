@@ -2,8 +2,8 @@
 layout: default
 title: "Key Insights: Grit, By Angela Duckworth!"
 date: 2025-09-25
-categories: [Personal]
-tags: [Grit, Power, Passion, Perseverance, Personal]
+categories: [Insights]
+tags: [Grit, Power, Passion, Perseverance, Insights]
 author: Rakesh Tyata
 ---
 
