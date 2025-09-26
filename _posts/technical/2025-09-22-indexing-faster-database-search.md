@@ -30,7 +30,8 @@ This post will explain **how different types of databases use indexing** to spee
 
 **Relational Database:** MySQL, PostgreSQL, SQLite, SQL Server, Oracle
 
-- Columns are indexed (B-Tree or Hash) to quickly locate rows.
+- Columns are indexed (B-Tree or Hash) to quickly locate rows. 
+- Idea behind Binary Tree is that data is splitted into 2 parts i.e. left child and right child in tree.
 - Perfect for structured tables with clearly defined columns.
 
 ![DB Index]({{ '/assets/images/db_index.jpg' | relative_url }})
@@ -45,6 +46,7 @@ This post will explain **how different types of databases use indexing** to spee
 
 - Index node properties (like `name`) to quickly locate starting points.
 - For spatial data, use **Geohashing** or **Quadtrees** for fast location queries.
+- In Geohashing, you divide into 2 parts (East/West or North/South), next split that half again and so on. 
 
 ![Graph Index]({{ '/assets/images/graph_index.jpg' | relative_url }})
 
