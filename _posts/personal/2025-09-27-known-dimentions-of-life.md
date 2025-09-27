@@ -9,10 +9,35 @@ author: Rakesh Tyata
 
 # 🌟 Insights on Life Dimensions with Growing Age
 
-Life unfolds across multiple dimensions — career, wealth, love, struggle, urgency, learning, and inner peace. Our priorities, challenges, and perspectives naturally shift with age, experience, and changing circumstances.
+Life unfolds across multiple dimensions — career, wealth, love, struggle, urgency, learning, and inner peace. Our priorities, challenges, and perspectives naturally shift with age, experience, and changing circumstances. Understanding these evolving dimensions helps us make more intentional choices, find balances and happiness.
 
-Understanding these evolving dimensions helps us make more intentional choices, find balances and happiness.
+## <span style="color:#1E90FF">When we normally speak, 3 core aspects mostly contribute to a happy life.</span>
 
+- **Health/Well-Being** – Physical and mental health, including good nutrition, exercise, rest, and mindfulness, builds the energy and resilience needed to enjoy life.
+- **Purpose/Fulfillment** – Engaging in work, hobbies, or causes that feel meaningful gives a sense of direction, growth, and achievement.
+- **Relationships/Connection** – Having close, supportive connections with family, friends, or community provides love, belonging, and emotional security.
+
+Now, let's assume you have nothing and these 3 aspects are't present in your life. What if, you only have a week left in your life. Does these 3 aspects matter now?
+
+- **Health/Well-Being** - becomes less about longevity and more about comfort — managing pain, feeling present, and experiencing small joys in the moment.
+- **Purpose/Fulfillment** - shifts from long-term goals to immediate meaning — saying what you’ve always wanted to say, finishing something small but important, or simply being at peace with yourself.
+- **Relationships/Connection** - almost always rises to the top — people near the end of life overwhelmingly say what matters most is expressing love, reconciling, forgiving, and spending time with those they care about.
+
+## <span style="color:#FFA500">A sudden and unforeseen event can completly shift your priorites and core values of happy life.</span>
+
+This is one of life's deepest truth. Now, imagine you're young with a long life ahead of you. What, truly makes life happy then?
+
+- Is it your relationships, career, wealth, power, or health?
+- Is it your influence of others, like family or friends?
+- Or, from another perspective, are we even asking the right question? Should we first try to understand what life and happiness really mean?
+
+I will leave you to wonder on these questions and answers. You can explore these questions more deeply whenever you have the time. To continue, you are in charge of your own emotions and actions, and fully responsible for your own happiness. Focus on these 3 core pillars for lasting happiness.
+
+- **Alignment** – Your actions, values, and life choices match; living in harmony with what matters to you.
+- **Consistency** – Maintaining steady habits, routines, and behaviors that support well-being over time.
+- **Guided Ownership** – Having control over your life, choices, and actions; taking responsiblity for how you live and act.
+
+Next, Let's explore few more perspectives on life with growing age.
 ![Life dimensions]({{ '/assets/images/life_dimensions.jpg' | relative_url }})
 
 ---
@@ -84,9 +109,3 @@ Understanding these evolving dimensions helps us make more intentional choices, 
 💡 **Analogy:** Spiritual growth is like a river flowing toward the ocean — the journey gradually leads to clarity and inner calm.
 
 ---
-
-## 💡 Takeaways
-
-- Life is multi-dimensional — career, wealth, love, struggle, and urgency shift at different age and generation.
-- Triangles provide a **simple visual metaphor** for understanding growth, effort, and expression.
-- Balance requires **self-awareness, patience, and intentional choices**.
