@@ -11,7 +11,7 @@ author: Rakesh Tyata
 
 Life unfolds across multiple dimensions — career, wealth, love, struggle, urgency, learning, and inner peace. Our priorities, challenges, and perspectives naturally shift with age, experience, and changing circumstances. Understanding these evolving dimensions helps us make more intentional choices, find balances and happiness.
 
-## <span style="color:#1E90FF">When we normally speak, 3 core aspects mostly contribute to a happy life.</span>
+<span style="color:#1E90FF">When we normally speak, 3 core aspects mostly contribute to a happy life.</span>
 
 - **Health/Well-Being** – Physical and mental health, including good nutrition, exercise, rest, and mindfulness, builds the energy and resilience needed to enjoy life.
 - **Purpose/Fulfillment** – Engaging in work, hobbies, or causes that feel meaningful gives a sense of direction, growth, and achievement.
@@ -23,7 +23,7 @@ Now, let's assume you have nothing and these 3 aspects are't present in your lif
 - **Purpose/Fulfillment** - shifts from long-term goals to immediate meaning — saying what you’ve always wanted to say, finishing something small but important, or simply being at peace with yourself.
 - **Relationships/Connection** - almost always rises to the top — people near the end of life overwhelmingly say what matters most is expressing love, reconciling, forgiving, and spending time with those they care about.
 
-## <span style="color:#FFA500">A sudden and unforeseen event can completly shift your priorites and core values of happy life.</span>
+<span style="color:#FFA500">A sudden and unforeseen event can completly shift your priorites and core values of happy life.</span>
 
 This is one of life's deepest truth. Now, imagine you're young with a long life ahead of you. What, truly makes life happy then?
 
