@@ -5,7 +5,7 @@ category: Insights
 permalink: /categories/insights/
 ---
 
-Welcome to the **Insights** category! Here you'll find posts about reflections, life experiences, productivity, and thoughts from popular books that I want to share with my readers.
+Welcome to the **Insights** category! Here you'll find posts about insights, life experiences, productivity, and thoughts that I want to share with my readers.
 
 This section is meant to simplify ideas and provide insights applicable to daily life, mental growth, and self-improvement.
 
