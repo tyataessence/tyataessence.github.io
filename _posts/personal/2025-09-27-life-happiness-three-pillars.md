@@ -90,7 +90,7 @@ Next, Let's explore few more perspectives on life with growing age.
 
 💡 **Analogy:** Life is like gardening — you wish for instant flowers, but growth requires patience, water, and care.
 
-## <span style="color:#228B22">2. Personal Growth & Learning</span>
+## <span style="color:#228B22">6. Personal Growth & Learning</span>
 
 - Intellectual and emotional development evolves across life.
 - Early life: exploring different fields & learning foundational skills; mid-life: specialization & mastery; later life: mentoring & wisdom sharing.
@@ -100,7 +100,7 @@ Next, Let's explore few more perspectives on life with growing age.
 
 ---
 
-## <span style="color:#6A5ACD">4. Spirituality & Inner Peace</span>
+## <span style="color:#6A5ACD">7. Spirituality & Inner Peace</span>
 
 - Understanding purpose, values, and meaning becomes more prominent with age.
 - Early life: questioning & seeking; mid-life: reflection & alignment; later life: acceptance & calm.
