@@ -14,10 +14,6 @@ Muna Madan is like someone leaving home to chase a glittering treasure far away.
 
 ---
 
-# 🌟 Key Insights: _Muna Madan_ by Laxmi Prasad Devkota
-
----
-
 ## <span style="color:#E74C3C">1. Love vs. Ambition</span>
 
 - Madan leaves his wife Muna to earn wealth abroad.

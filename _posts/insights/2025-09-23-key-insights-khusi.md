@@ -13,10 +13,6 @@ Khusi is like a long, winding hike up a mountain. At first, you think the summit
 
 ---
 
-# 🌟 Khusi (Happiness), by Vijaya Kumar Pandey
-
----
-
 ## <span style="color:#E74C3C">1. Struggle with addiction, imperfection & vulnerability</span>
 
 - The book begins with the author’s own severe alcohol addiction. This is not just a confessional moment but used as a metaphor: the idea that one must confront one’s dark side, one’s weakness, before one can find deeper insight or peace.

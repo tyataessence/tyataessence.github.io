@@ -14,10 +14,6 @@ Palpasa Café is like a fragile painting being created during a storm. Each brus
 
 ---
 
-# 🌟 Palpasa Café, By Narayan Wagle
-
----
-
 ## <span style="color:#1E90FF">1. Art and Creativity</span>
 
 - Siddhartha’s sketches of villages and landscapes during the civil unrest, show how art becomes a refuge for him, and a way to process what he sees. Art is a form of **self-expression and healing**, even amidst chaos.
