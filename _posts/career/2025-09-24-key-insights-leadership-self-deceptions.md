@@ -7,9 +7,11 @@ tags: [Leadership, Self-Deception, Career]
 author: Rakesh Tyata
 ---
 
-I like this book because it quietly flips the usual leadership script: The real problem is our blindness to ourselves. This show up as defensiveness, in most of our conflict, which begins when we betray our own sense of what's right and wrong, to protect image or ego, and eventually invent stories to justify it. When we stop treating others as objects and start seeing them as people, everything changes.
+Leadership is not about forcing or controlling people to follow rules. It is about opening your eyes, seeing others for who they really are and treating them with respect. It is about freeing yourself from the box, so you can truly see and honor people. That is where trust and transformation begin, though true leadership is hard to find these days.
 
-Leadership isn’t about managing others into compliance — it’s about freeing yourself from the box so you can truly see and honor people. That’s where trust and transformation begin.
+The biggest issue is that we are often blind to ourselves. This shows up as defensiveness in conflicts, usually when we go against what we know is right, just to protect our image or ego. Then we start making excuses or pointing fingers at others to make ourselves feel right.
+
+But when we stop treating others like obstacles or objects, and start seeing them as real people with value, everything changes for the better. True leadership beings when we notice their weaknesses and help them grow, but not manage them out.
 
 ---
 
