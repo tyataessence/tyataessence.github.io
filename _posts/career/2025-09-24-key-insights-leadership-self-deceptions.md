@@ -15,10 +15,6 @@ But when we stop treating others like obstacles or objects, and start seeing the
 
 ---
 
-# 🌟 Leadership and Self-Deception, by Arbinger Institute
-
----
-
 ## <span style="color:#E74C3C">1. Self-Deception = “Being in the Box”</span>
 
 - When we justify our behavior while blaming others, we are “in the box.”

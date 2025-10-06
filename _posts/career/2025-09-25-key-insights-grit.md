@@ -13,10 +13,6 @@ Success isn’t about genius or shortcuts. It’s about showing up, over and ove
 
 ---
 
-# 🌟 Grit: The Power of Passion and Perseverance, by Angela Duckworth
-
----
-
 ## <span style="color:#E67E22">1. Talent ≠ Success</span>
 
 - Talent helps, but it’s not the main driver of achievement.

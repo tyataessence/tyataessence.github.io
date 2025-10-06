@@ -13,10 +13,6 @@ Maxwell is one of the most influential voices in leadership development. This "5
 
 ---
 
-# 🌟 The 5 Levels of Leadership, by John C. Maxwell
-
----
-
 ## <span style="color:#E74C3C">1. Position (Rights)</span>
 
 - People follow you because they **have to**.

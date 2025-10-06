@@ -13,10 +13,6 @@ The right habits show you, how to take control of your life, build real connecti
 
 ---
 
-# 🌟 The 7 Habits of Highly Effective People, by Stephen R. Covey
-
----
-
 ## <span style="color:#1E90FF">Independence / Self-Mastery</span>
 
 _(Moving from Dependence → Independence)_

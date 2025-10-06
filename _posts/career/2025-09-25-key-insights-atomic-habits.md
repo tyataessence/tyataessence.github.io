@@ -13,10 +13,6 @@ Success isn’t about giant leaps but small, consistent steps. When you shape yo
 
 ---
 
-# 🌟 Atomic Habits, by James Clear
-
----
-
 ## <span style="color:#1E90FF">1. Small Habits, Big Impact</span>
 
 - Tiny changes, repeated consistently, compound into remarkable results.
