@@ -11,19 +11,19 @@ author: Rakesh Tyata
 
 💡 If you imagine the brain as a library, ChatGPT is like a super-librarian who doesn’t just fetch books but has read all of them, synthesized their contents, and can generate new, coherent, and often insightful paragraphs on demand.
 
-The human-like nature of ChatGPT isn’t magic — it’s ***pattern mastery**. It recognizes and replicates linguistic structures, emotional tones, and logical flows seen millions of times during training.
+The human-like nature of ChatGPT isn’t magic — it’s **pattern mastery**. It recognizes and replicates linguistic structures, emotional tones, and logical flows seen millions of times during training.
 
 However, it doesn’t **think** or **believe** anything. It’s an illusion of understanding built on probability and data density — a mirror reflecting collective human knowledge.
 
-💡 "ChatGPT doesn’t know the answer — it knows how an answer *should sound*."
+💡 "ChatGPT doesn’t know the answer — it knows how an answer **should sound**."
 
 ---
 
-## 1. How Does ChatGPT Work Internally?
+## <span style="color:#2F80ED;">1. How Does ChatGPT Work Internally?</span>
 
 Let’s break down the internal machinery without getting lost in math.
 
-### 🔹 Step 1: Tokenization – Turning Words into Numbers
+### <span style="color:#E67E22;">🔹 Step 1: Tokenization – Turning Words into Numbers</span>
 
 Language is messy for computers — they think in numbers, not words. So, ChatGPT converts text into **tokens**, which are numeric representations of chunks of text (words, parts of words, or symbols). For example:
 
@@ -31,7 +31,7 @@ Language is messy for computers — they think in numbers, not words. So, ChatGP
 
 Each of these tokens is mapped to a number through a massive dictionary learned during training.
 
-### 🔹 Step 2: Embeddings – Giving Meaning to Tokens
+### <span style="color:#E67E22;">🔹 Step 2: Embeddings – Giving Meaning to Tokens</span>
 
 Each token is then embedded into a **high-dimensional vector space**. Think of this like placing every word on a multi-dimensional map where similar meanings are close together — "king" and "queen" are nearby, while "banana" is far away.
 
@@ -44,7 +44,7 @@ Each token is then embedded into a **high-dimensional vector space**. Think of t
 ]
 ```
 
-### 🔹 Step 3: Transformer Architecture – The Brain of GPT
+### <span style="color:#E67E22;">🔹 Step 3: Transformer Architecture – The Brain of GPT</span>
 
 The **Transformer** is the real magic. It consists of **layers** that perform two key operations:
 
@@ -85,7 +85,7 @@ Here’s a simple example:
 
 This way, the Transformer stays focused on the most recent and relevant words, while still keeping track of what came before — maintaining smooth, logical responses even in long conversations.
 
-### 🔹 Step 4: Decoding – Generating the Next Word
+### <span style="color:#E67E22;">🔹 Step 4: Decoding – Generating the Next Word</span>
 
 Once the model understands context, it predicts the **next most likely token**. It repeats this step iteratively until a full response is generated. It’s not recalling from memory — it’s generating new text, token by token. 
 
@@ -95,7 +95,7 @@ For example, the ChatGPT would generate the response "Totally agree! 😎 ChatGP
 
 ---
 
-## 2. What is the Memory Strategy?
+## <span style="color:#27AE60;">2. What is the Memory Strategy?</span>
 
 ChatGPT’s memory strategy has evolved over time. Initially, GPT models were **stateless** — every conversation was independent. Now, OpenAI has introduced **session memory**, which works like a human’s short-term and long-term memory.
 
@@ -118,7 +118,7 @@ Internally, memory strategies involve **vector databases** that store embeddings
 
 ---
 
-## 3. Comparision with the LLM Layers
+## <span style="color:#F1C40F">3. Comparision with the LLM Layers</span>
 
 The term **"Large Language Model"** literally means it has *many layers* — both conceptually and computationally.
 
@@ -142,7 +142,9 @@ Finally, a **softmax layer** converts probabilities into text — picking the mo
 
 ---
 
-## 4. Top 12 Transformer Layers in ChatGPT
+## <span style="color:#8E44AD4">4. Highlights </span>
+
+### <span style="color:#E67E22;">1. Top 12 Layers in ChatGPT (Transformer and Output Layers)</span>
 ```
 | Layer | Component                               | Description                                                                                        |
 | ----- | --------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -155,12 +157,13 @@ Finally, a **softmax layer** converts probabilities into text — picking the mo
 | 7     | **Feed-Forward Network (FFN)**          | Applies a two-layer fully connected network to each token.                                         |
 | 8     | **Residual Connection**                 | Adds the input of the FFN to its output to preserve information.                                   |
 | 9     | **Layer Normalization**                 | Normalizes the combined output from the FFN and residual connection.                               |
+| ----- | --------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | 10    | **Output Projection**                   | Projects the final embeddings to the vocabulary size for prediction.                               |
 | 11    | **Softmax Layer**                       | Converts logits to probabilities for each token in the vocabulary.                                 |
 | 12    | **Token Selection**                     | Chooses the next token based on the probabilities, often using strategies like greedy or sampling. |
 ```
 
-## 5. Evolution: Major Improvements Across GPT Versions
+### <span style="color:#E67E22;">2. Evolution: Major Improvements Across GPT Versions</span>
 ```
 | Version         | General Availability (GA)     | Key Improvements                                                                                     |
 |-----------------|-------------------------------|------------------------------------------------------------------------------------------------------|
@@ -173,7 +176,7 @@ Finally, a **softmax layer** converts probabilities into text — picking the mo
 
 ```
 
-## 6. Fun Analogies to Understand the Core Concepts
+### <span style="color:#E67E22;">3. Fun Analogies to Understand the Core Concepts</span>
 ```
 | Concept                   | Analogy                                                                                           |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -185,7 +188,7 @@ Finally, a **softmax layer** converts probabilities into text — picking the mo
 | **Memory**                | Sticky notes (short-term) vs. a personal diary (long-term).                                       |
 ```
 
-## 8. The Road Ahead
+### <span style="color:#E67E22;">4. The Road Ahead</span>
 
 Future models (like GPT-5 and beyond) aim to:
 
