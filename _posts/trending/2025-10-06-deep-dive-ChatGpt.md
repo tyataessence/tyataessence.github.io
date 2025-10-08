@@ -23,6 +23,8 @@ However, it doesn’t **think** or **believe** anything. It’s an illusion of u
 
 Let’s break down the internal machinery without getting lost in math.
 
+![ChatGPT]({{ '/assets/images/chatgpt.jpg' | relative_url }})
+
 ### <span style="color:#E67E22;">🔹 Step 1: Tokenization – Turning Words into Numbers</span>
 
 Language is messy for computers — they think in numbers, not words. So, ChatGPT converts text into **tokens**, which are numeric representations of chunks of text (words, parts of words, or symbols). For example:
