@@ -3,18 +3,6 @@ layout: default
 title: "Indexing for Faster Database Search."
 date: 2025-09-22
 categories: [Technical]
-tags:
-  [
-    Database,
-    SQL,
-    NOSQL,
-    Vector,
-    Graph,
-    DynamoDB,
-    CosmosDB,
-    CassandraDB,
-    Technical,
-  ]
 author: Rakesh Tyata
 ---
 

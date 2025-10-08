@@ -3,7 +3,6 @@ layout: default
 title: "What is ChatGPT?"
 date: 2025-10-06
 categories: [Trending]
-tags: [ChatGpt, LLM, Trending]
 author: Rakesh Tyata
 ---
 

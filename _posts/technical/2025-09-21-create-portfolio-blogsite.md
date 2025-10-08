@@ -3,7 +3,6 @@ layout: default
 title: "How to Create a Free Portfolio and Blogsite Using GitHub?"
 date: 2025-09-21
 categories: [Technical]
-tags: [portfolio, blogsite, Technical]
 author: Rakesh Tyata
 ---
 

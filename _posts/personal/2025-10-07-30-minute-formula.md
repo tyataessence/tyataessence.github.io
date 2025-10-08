@@ -3,14 +3,12 @@ layout: default
 title: "30 Minutes to Build Energy, Skills & Confidence"
 date: 2025-10-07
 categories: [Personal]
-tags: [SelfImprovement, Health, Career, Investing, Productivity, Mindset, Transformation, Personal]
 author: Rakesh Tyata
 ---
 
 # <span style="color:#32CD32;">30 Minutes to Build Energy, Skills & Confidence</span>
 
-> **Formula:**
-> *10 minutes × 3 pillars = 30 minutes that reshape everything.*  
+> **Formula:** > _10 minutes × 3 pillars = 30 minutes that reshape everything._  
 > <span style="color:#32CD32;">Energy (Health)</span> → <span style="color:#FF8C00;">Skill (Career)</span> → <span style="color:#FFD700;">Confidence (Wealth)</span> → <span style="color:#1E90FF;">Renewal (Reflection)</span>
 
 ---
@@ -87,16 +85,16 @@ Reflection converts scattered effort into a narrative of growth.
 **Story in action:**  
 You pause every few months and look back:
 
-* <span style="color:#32CD32;">You feel more alive and steady.</span>
-* <span style="color:#FF8C00;">You’re learning faster and staying relevant.</span>
-* <span style="color:#FFD700;">You make calmer financial decisions.</span>
+- <span style="color:#32CD32;">You feel more alive and steady.</span>
+- <span style="color:#FF8C00;">You’re learning faster and staying relevant.</span>
+- <span style="color:#FFD700;">You make calmer financial decisions.</span>
 
 **Effect:**  
 You realize — this wasn’t about 30 minutes.  
 It was about building a rhythm where each pillar feeds the next.
 
 > “Energy fuels learning. Learning builds confidence. Confidence sustains calm wealth.”  
-> — *Tyata Essence*
+> — _Tyata Essence_
 
 ---
 
@@ -104,10 +102,10 @@ It was about building a rhythm where each pillar feeds the next.
 
 Ten minutes at a time, you’ve built a personal ecosystem:
 
-* <span style="color:#32CD32;">Health gives you energy.</span>
-* <span style="color:#FF8C00;">Career learning channels that energy into growth.</span>
-* <span style="color:#FFD700;">Wealth clarity stabilizes your future.</span>
-* <span style="color:#1E90FF;">Reflection renews your purpose.</span>
+- <span style="color:#32CD32;">Health gives you energy.</span>
+- <span style="color:#FF8C00;">Career learning channels that energy into growth.</span>
+- <span style="color:#FFD700;">Wealth clarity stabilizes your future.</span>
+- <span style="color:#1E90FF;">Reflection renews your purpose.</span>
 
 That’s how 30 minutes a day can quietly rewrite your entire story.
 

@@ -3,7 +3,6 @@ layout: default
 title: "What is Artificial Intelligence?"
 date: 2025-09-21
 categories: [Trending]
-tags: [Artificial, Intelligence, Trending]
 author: Rakesh Tyata
 ---
 

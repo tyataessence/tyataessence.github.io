@@ -3,7 +3,6 @@ layout: default
 title: "Key Insights: Palpasa Cafe, By Narayan Wagle!"
 date: 2025-09-26
 categories: [Insights]
-tags: [Art, Love, Conflict, War, Grow, Self-Discovery, Insights]
 author: Rakesh Tyata
 ---
 

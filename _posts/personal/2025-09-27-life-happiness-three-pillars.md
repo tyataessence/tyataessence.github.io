@@ -3,7 +3,6 @@ layout: default
 title: "Life, Happiness, and the 3 Pillars That Matter Most"
 date: 2025-09-27
 categories: [Personal]
-tags: [Career, Wealth, Love, Struggle, Urgency, Education, Peace, Personal]
 author: Rakesh Tyata
 ---
 
