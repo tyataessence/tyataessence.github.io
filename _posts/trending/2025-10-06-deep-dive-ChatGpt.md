@@ -124,6 +124,8 @@ Internally, memory strategies involve **vector databases** that store embeddings
 
 The term **"Large Language Model"** literally means it has *many layers* — both conceptually and computationally.
 
+![LLM Diagrams]({{ '/assets/images/llm_diagrams.jpg' | relative_url }})
+
 ### 📚 1. Embedding Layer
 
 Converts words into numerical vectors that capture their meaning.
