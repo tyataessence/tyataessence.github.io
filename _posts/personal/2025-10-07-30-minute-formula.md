@@ -6,10 +6,8 @@ categories: [Personal]
 author: Rakesh Tyata
 ---
 
-# <span style="color:#32CD32;">30 Minutes to Build Energy, Skills & Confidence</span>
-
-> **Formula:** > _10 minutes × 3 pillars = 30 minutes that reshape everything._  
-> <span style="color:#32CD32;">Energy (Health)</span> → <span style="color:#FF8C00;">Skill (Career)</span> → <span style="color:#FFD700;">Confidence (Wealth)</span> → <span style="color:#1E90FF;">Renewal (Reflection)</span>
+**Formula:** > _10 minutes × 3 pillars = 30 minutes that reshape everything._  
+<span style="color:#32CD32;">Energy (Health)</span> → <span style="color:#FF8C00;">Skill (Career)</span> → <span style="color:#1E90FF;">Confidence (Wealth)</span> → <span style="color:#E74C3C;">Renewal (Reflection)</span>
 
 ---
 
@@ -44,7 +42,7 @@ Energy from your health habit fuels consistency here — because the body’s aw
 
 ---
 
-## <span style="color:#FFD700;">3. Environment Design → Turn Skill into Confidence</span>
+## <span style="color:#1E90FF;">3. Environment Design → Turn Skill into Confidence</span>
 
 **Why it matters:**  
 Your surroundings can either drain focus or support clarity.
@@ -60,7 +58,7 @@ Together, they build the calm confidence to handle your finances with purpose.
 
 ---
 
-## <span style="color:#1E90FF;">4. Compounding Positive Reframing → Reshape How You See Progress</span>
+## <span style="color:#E74C3C;">4. Compounding Positive Reframing → Reshape How You See Progress</span>
 
 **Why it matters:**  
 Growth often feels invisible — reframing helps you see the compounding effect. Setbacks aren’t signs of failure — they’re signals for adjustment.
@@ -77,7 +75,7 @@ You’re not hustling harder — you’re evolving smarter.
 
 ---
 
-## <span style="color:#32CD32;">5. Revisit, Celebrate & Reflect → Every 3–6 Months</span>
+## <span style="color:#E74C3C;">5. Celebrate & Reflect → Every 3–6 Months</span>
 
 **Why it matters:**  
 Reflection converts scattered effort into a narrative of growth.
@@ -87,7 +85,7 @@ You pause every few months and look back:
 
 - <span style="color:#32CD32;">You feel more alive and steady.</span>
 - <span style="color:#FF8C00;">You’re learning faster and staying relevant.</span>
-- <span style="color:#FFD700;">You make calmer financial decisions.</span>
+- <span style="color:#1E90FF;">You make calmer financial decisions.</span>
 
 **Effect:**  
 You realize — this wasn’t about 30 minutes.  
@@ -98,14 +96,14 @@ It was about building a rhythm where each pillar feeds the next.
 
 ---
 
-## <span style="color:#32CD32;">The Chain Reaction of Growth</span>
+## <span style="color:#6A5ACD;">The Chain Reaction of Growth</span>
 
 Ten minutes at a time, you’ve built a personal ecosystem:
 
 - <span style="color:#32CD32;">Health gives you energy.</span>
 - <span style="color:#FF8C00;">Career learning channels that energy into growth.</span>
-- <span style="color:#FFD700;">Wealth clarity stabilizes your future.</span>
-- <span style="color:#1E90FF;">Reflection renews your purpose.</span>
+- <span style="color:#1E90FF;">Wealth clarity stabilizes your future.</span>
+- <span style="color:#E74C3C;">Reflection renews your purpose.</span>
 
 That’s how 30 minutes a day can quietly rewrite your entire story.
 
