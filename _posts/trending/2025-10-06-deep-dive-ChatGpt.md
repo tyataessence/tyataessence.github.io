@@ -49,10 +49,10 @@ Each token is then embedded into a **high-dimensional vector space**. Think of t
 
 The **Transformer** is the real magic. It consists of **layers** that perform two key operations:
 
-* **Self-Attention:** Determines which words in a sentence are relevant to each other. For example: In “ChatGPT is cool.”, the model learns that “Chat” and “GPT” belong together, while “is” and “cool.” form another pair. This helps it understand that we’re describing ChatGPT as cool — not just listing random words.
+- **Self-Attention:** Determines which words in a sentence are relevant to each other. For example: In “ChatGPT is cool.”, the model learns that “Chat” and “GPT” belong together, while “is” and “cool.” form another pair. This helps it understand that we’re describing ChatGPT as cool — not just listing random words.
 
 ```
-Each word is representated by 4-dimensional array. In real ChatGPT, it use high-dimensional vectors (often 1024 - 12,288 dimensions).
+Each word is represented by 4-dimensional array. In real ChatGPT, it use high-dimensional vectors (often 1024 - 12,288 dimensions).
 attention_output = [
     [0.1855, 0.1825, 0.072, 0.3755],  # "Chat" (aware of "GPT")
     [0.1835, 0.2935, -0.006, 0.3205], # "GPT" (aware of "Chat")
@@ -61,7 +61,7 @@ attention_output = [
 ]
 ```
 
-* **Feed-Forward Network:** After attention figures out the relationships, this layer processes those patterns to understand deeper context and refine meaning — like adding logic and nuance to what attention has connected.
+- **Feed-Forward Network:** After attention figures out the relationships, this layer processes those patterns to understand deeper context and refine meaning — like adding logic and nuance to what attention has connected.
 
 ```
 ffn_output_matrix = [
@@ -72,12 +72,13 @@ ffn_output_matrix = [
 ]
 ```
 
-* **Notes**
-GPT models can have anywhere from **12 layers (GPT-2)** to **hundreds (GPT-4)**. More layers = deeper reasoning, but also more computation.
+- **Notes**
+  GPT models can have anywhere from **12 layers (GPT-2)** to **hundreds (GPT-4)**. More layers = deeper reasoning, but also more computation.
 
 The Transformers do not read every word all at once. Instead it reads a small portion at a time, like scanning through text with a moving window, also known as context window. Think of it like reading with a highlighter: you only focus on a few sentences, but you remember what you just read to keep the story flowing.
 
 Here’s a simple example:
+
 - The model can see about 8 lines (tokens) at once.
 - It reads the first 8 lines, understands them, and moves the window slightly forward.
 - As it moves, it keeps what’s important in mind and blends it with what comes next.
@@ -88,7 +89,7 @@ This way, the Transformer stays focused on the most recent and relevant words, w
 
 ### <span style="color:#E67E22;">🔹 Step 4: Decoding – Generating the Next Word</span>
 
-Once the model understands context, it predicts the **next most likely token**. It repeats this step iteratively until a full response is generated. It’s not recalling from memory — it’s generating new text, token by token. 
+Once the model understands context, it predicts the **next most likely token**. It repeats this step iteratively until a full response is generated. It’s not recalling from memory — it’s generating new text, token by token.
 
 For example, the ChatGPT would generate the response "Totally agree! 😎 ChatGPT can be a fun sidekick, a tutor, or even a brainstorming partner—basically a Swiss Army knife for ideas and info. Do you want me to tell you a quirky way to show off its cool factor"
 
@@ -104,8 +105,8 @@ ChatGPT’s memory strategy has evolved over time. Initially, GPT models were **
 
 This is the model’s **working memory** — it can recall only a certain number of tokens (words) from the current chat. For example:
 
-* GPT-3: ~2,000–4,000 tokens (~2–3 pages)
-* GPT-4: up to 128,000 tokens (~100 pages)
+- GPT-3: ~2,000–4,000 tokens (~2–3 pages)
+- GPT-4: up to 128,000 tokens (~100 pages)
 
 Once that limit is reached, older context is forgotten. The attention mechanism within the lower and middle transformer layers directly consumes the current session tokens. Each layer re-weights attention dynamically based on recent input and these layers are computationally tied to the session context window.
 
@@ -113,15 +114,15 @@ Once that limit is reached, older context is forgotten. The attention mechanism 
 
 In newer versions (like ChatGPT with memory), the model can remember facts about you across sessions — like your name, preferences, and previous topics — stored securely and retrievable later.
 
-💡  Think of short-term memory as your current browser tab, and long-term memory as your bookmarks and saved passwords.
+💡 Think of short-term memory as your current browser tab, and long-term memory as your bookmarks and saved passwords.
 
 Internally, memory strategies involve **vector databases** that store embeddings (semantic fingerprints of information). When you ask a question, ChatGPT retrieves the most relevant embeddings using **similarity search**, then feeds them into context for reasoning as context augmentations. This is often called Retrieval Augemented Generation (RAG).
 
 ---
 
-## <span style="color:#F1C40F">3. Comparision with the LLM Layers</span>
+## <span style="color:#F1C40F">3. Comparison with the LLM Layers</span>
 
-The term **"Large Language Model"** literally means it has *many layers* — both conceptually and computationally.
+The term **"Large Language Model"** literally means it has _many layers_ — both conceptually and computationally.
 
 ![LLM Diagrams]({{ '/assets/images/llm_diagrams.jpg' | relative_url }})
 
@@ -133,9 +134,9 @@ Converts words into numerical vectors that capture their meaning.
 
 This is where deep understanding happens. Each layer includes:
 
-* **Multi-head Attention:** Looks at multiple word relationships simultaneously.
-* **Normalization:** Keeps training stable.
-* **Feed-forward:** Builds more abstract understanding.
+- **Multi-head Attention:** Looks at multiple word relationships simultaneously.
+- **Normalization:** Keeps training stable.
+- **Feed-forward:** Builds more abstract understanding.
 
 ### 🔍 3. Output Layer
 
@@ -148,25 +149,27 @@ Finally, a **softmax layer** converts probabilities into text — picking the mo
 ## <span style="color:#8E44AD4">4. Highlights </span>
 
 ### <span style="color:#E67E22;">1. Top 12 Layers in ChatGPT (Transformer and Output Layers)</span>
+
 ```
 | Layer | Component                               | Description                                                                                        |
 | ----- | --------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | 1     | **Input Embedding**                     | Converts input tokens into dense vectors.                                                          |
 | 2     | **Positional Encoding**                 | Adds information about the position of tokens in the sequence.                                     |
-| 3     | **Layer Normalization (Pre-LayerNorm)** | Normalizes inputs to stabilize training.                                                           |
-| 4     | **Masked Multi-Head Self-Attention**    | Computes attention scores to focus on relevant parts of the input sequence.                        |
-| 5     | **Residual Connection**                 | Adds the input of the attention layer to its output to help with gradient flow.                    |
-| 6     | **Layer Normalization**                 | Normalizes the combined output from the attention and residual connection.                         |
-| 7     | **Feed-Forward Network (FFN)**          | Applies a two-layer fully connected network to each token.                                         |
-| 8     | **Residual Connection**                 | Adds the input of the FFN to its output to preserve information.                                   |
-| 9     | **Layer Normalization**                 | Normalizes the combined output from the FFN and residual connection.                               |
+| 3     | **Multi-Head Self-Attention**           | Computes attention scores to focus on relevant parts of the input sequence.                        |
+| 4     | **Scaled Dot-Product Attention**        | Computes attention weights using query, key, and value matrices — focus token dependency.          |
+| 5     | **Layer Normalization (Pre/Post-Norm)** | Stabilizes training by normalizing activations across neurons, helping gradients flow.             |
+| 6     | **Feed-Forward Network (FFN)**          | Applies a two-layer fully connected network to each token.                                         |
+| 7     | **Residual Connection**                 | Adds the input of the FFN to its output to preserve information.                                   |
+| 8     | **Layer Normalization**                 | Normalizes the combined output from the FFN and residual connection.                               |
+| 9     | **Stacking of Transformer Blocks**      | Stack dozens of identical transformer blocks, attention + FNN sub-layers for deeper understanding. |
 | ----- | --------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | 10    | **Output Projection**                   | Projects the final embeddings to the vocabulary size for prediction.                               |
-| 11    | **Softmax Layer**                       | Converts logits to probabilities for each token in the vocabulary.                                 |
+| 11    | **Softmax Layer**                       | Converts vocabulary logits to probabilities for each token in the vocabulary.                                 |
 | 12    | **Token Selection**                     | Chooses the next token based on the probabilities, often using strategies like greedy or sampling. |
 ```
 
 ### <span style="color:#E67E22;">2. Evolution: Major Improvements Across GPT Versions</span>
+
 ```
 | Version         | General Availability (GA)     | Key Improvements                                                                                     |
 |-----------------|-------------------------------|------------------------------------------------------------------------------------------------------|
@@ -180,6 +183,7 @@ Finally, a **softmax layer** converts probabilities into text — picking the mo
 ```
 
 ### <span style="color:#E67E22;">3. Fun Analogies to Understand the Core Concepts</span>
+
 ```
 | Concept                   | Analogy                                                                                           |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -195,11 +199,11 @@ Finally, a **softmax layer** converts probabilities into text — picking the mo
 
 Future models (like GPT-5 and beyond) aim to:
 
-* **Enhance reasoning** and chain-of-thought transparency.
-* **Integrate real-time learning** (dynamic updates).
-* **Expand multimodality** (audio, video, 3D).
-* **Refine personalized memory** (human-like recall).
+- **Enhance reasoning** and chain-of-thought transparency.
+- **Integrate real-time learning** (dynamic updates).
+- **Expand multimodality** (audio, video, 3D).
+- **Refine personalized memory** (human-like recall).
 
 In essence, ChatGPT is moving from being a **linguistic engine** toward becoming a **cognitive collaborator**.
 
-💡 The evolution of ChatGPT is like teaching a digital mind not just to read and write — but to *understand and remember.*
+💡 The evolution of ChatGPT is like teaching a digital mind not just to read and write but also to understand and remember.

@@ -2,8 +2,8 @@
 layout: default
 title: "Key Insights: The 7 Habits of Highly Effective People, By Stephen R. Covey!"
 date: 2025-09-26
-categories: [Career]
-tags: [Habit, Effective, People, Career]
+categories: [Habits]
+tags: [Habit, Effective, People, Habits]
 author: Rakesh Tyata
 ---
 
