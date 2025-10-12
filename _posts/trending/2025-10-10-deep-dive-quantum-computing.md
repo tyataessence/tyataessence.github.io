@@ -2,7 +2,7 @@
 layout: default
 title: "What is Quantum Computing?"
 date: 2025-10-10
-categories: [Trending, Technology]
+categories: [Trending]
 author: Rakesh Tyata
 ---
 
