@@ -6,7 +6,7 @@ categories: [Career]
 author: Rakesh Tyata
 ---
 
-**emotions** are not obstacles to logic but they are signals guiding wiser choices. **self-awareness, self-regulation, motivation, empathy, and social skills** — Each of these emotional intelligence help us on shaping how we think, decide, and relate.
+**Emotions** are not obstacles to logic but they are signals guiding wiser choices. **Self-Awareness, Self-Regulation, Motivation, Empathy, and Social Skills** — Each of these emotional intelligence help us on shaping how we think, decide, and relate.
 
 **Emotional Intelligence (EQ)** reveals that our ability to manage emotions — not just IQ — determines success, happiness, and resilience in life.  
 Daniel Goleman shows that being "smart" isn't only about logic or knowledge — it's about **self-awareness, empathy, and emotional mastery**.

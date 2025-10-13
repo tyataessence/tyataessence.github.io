@@ -16,7 +16,7 @@ A **layer** is a building block in a neural network. By **stacking many layers**
 
 A **tensor** is a multi-dimensional array (1D = vector, 2D = matrix, 3D+ = higher-order), used to represent all data inside a neural network (input, output, activations and weigths). Frameworks like **PyTorch** and **TensorFlow** treat everything (inputs, weights, and activations) as **tensors**. Examples:
 
-- **Embedding Matrix:** 2D tensor: (vocab_size × embedding_dim)
+- **Embedding Matrix:** in 4D tensor
 
   ````
   # Each row = a word in the vocab
@@ -27,7 +27,7 @@ A **tensor** is a multi-dimensional array (1D = vector, 2D = matrix, 3D+ = highe
 
   ````
 
-- **Attention Weights:** 3D tensor: (batch × sequence_length × attention_dim)
+- **Attention Weights:** in 4D tensor
 
   ````
   # Each batch has a sequence of tokens, each token has attention weights
@@ -41,9 +41,9 @@ A **tensor** is a multi-dimensional array (1D = vector, 2D = matrix, 3D+ = highe
 
   ````
 
-- **Transformer Feedforward:** 2D/3D tensor: (input_dim × hidden_dim)
+- **Transformer Feedforward:** in 4D tensor
   ````
-     # 2D weight matrix: connects input to hidden neurons
+     # weight matrix: connects input to hidden neurons
      feedforward_weights = [
         [0.12, 0.34, 0.56, 0.78],  # input feature 1 → hidden 4
         [0.90, 0.11, 0.22, 0.33],  # input feature 2 → hidden 4
@@ -63,7 +63,7 @@ LLM includes 2 types of memory. **Short-Term Memory (Context Window)** and **Lon
 
 ### Short-Term Memory (Context Window)
 
-The **context window** is a memory optimization technique and it stores the computed keys (K) and values (V) from the model's self attention layers for previoulsy generated tokens in a sequence. By **reusing these cached K-V pairs** for subsequent tokens, the LLM avoids redundant computation, making generation faster. For example, **GPT-3.5**: ~4K tokens in KV cache, **GPT-4**: ~128K tokens in KV cache
+The **context window** is a memory optimization technique and it stores the computed keys (K) and values (V) from the model's self attention layers for previously generated tokens in a sequence. By **reusing these cached K-V pairs** for subsequent tokens, the LLM avoids redundant computation, making generation faster. For example, **GPT-3.5**: ~4K tokens in KV cache, **GPT-4**: ~128K tokens in KV cache
 
 The LLMs like ChatGPT use multi tiered caching strategy.
 

@@ -116,21 +116,24 @@ In newer versions (like ChatGPT with memory), the model can remember facts about
 
 💡 Think of short-term memory as your current browser tab, and long-term memory as your bookmarks and saved passwords.
 
-Internally, memory strategies involve **vector databases** that store embeddings (semantic fingerprints of information). When you ask a question, ChatGPT retrieves the most relevant embeddings using **similarity search**, then feeds them into context for reasoning as context augmentations. This is often called Retrieval Augemented Generation (RAG).
+Internally, memory strategies involve **vector databases** that store embeddings (semantic fingerprints of information). When you ask a question, ChatGPT retrieves the most relevant embeddings using **similarity search**, then feeds them into context for reasoning as context augmentations. This is often called Retrieval Augmented Generation (RAG).
 
 ---
 
 ## <span style="color:#F1C40F">3. Comparison with the LLM Layers</span>
 
-The term **"Large Language Model"** literally means it has _many layers_ — both conceptually and computationally.
+The term **"Large Language Model"** literally means it has many layers — both conceptually and computationally. It's the core model trained on massive data. For example GPT-3.5, GPT-4, Claude, Gemini, LLaMA etc. On the other hand, ChatGPT is the chat-based application with user interface and safety features, built on top of an LLM. It is the applied, refined and user-friendly version of an LLM. 
+
+💡 Imagine ChatGPT as a fully built car with steering, dashboard and safety systems while the car engine is the LLM. 
+
+Both ChatGPT and LLM are linguistic engines. ChatGPT is a general purpose translator, fluent in all topics but not a doctor. However, LLM  is a specialized translator. It can be a specialized medical interpreter, fluent only in the language of medicine.
 
 ![LLM Diagrams]({{ '/assets/images/llm_diagrams.jpg' | relative_url }})
 
-### 📚 1. Embedding Layer
+**1. Embedding Layer**
+  - Converts words into numerical vectors that capture their meaning.
 
-Converts words into numerical vectors that capture their meaning.
-
-### ⚙️ 2. Transformer Layers
+**2. Transformer Layers**
 
 This is where deep understanding happens. Each layer includes:
 
@@ -138,11 +141,8 @@ This is where deep understanding happens. Each layer includes:
 - **Normalization:** Keeps training stable.
 - **Feed-forward:** Builds more abstract understanding.
 
-### 🔍 3. Output Layer
-
-Finally, a **softmax layer** converts probabilities into text — picking the most probable next token.
-
-💡 Think of these layers like a symphony orchestra. The embeddings are the instruments, attention is the conductor, and the final output is the harmonious melody (the generated text).
+**3. Output Layer**
+- Finally, a **softmax layer** converts probabilities into text — picking the most probable next token.
 
 ---
 
@@ -182,20 +182,7 @@ Finally, a **softmax layer** converts probabilities into text — picking the mo
 
 ```
 
-### <span style="color:#E67E22;">3. Fun Analogies to Understand the Core Concepts</span>
-
-```
-| Concept                   | Analogy                                                                                           |
-| ------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Tokens**                | Lego blocks that build sentences.                                                                 |
-| **Attention Mechanism**   | Spotlight focusing on the most relevant words in a sentence.                                      |
-| **Transformer Layers**    | Layers of understanding, like rereading a paragraph multiple times with deeper insight each pass. |
-| **Training**              | Reading the entire internet, but with math.                                                       |
-| **Inference (Answering)** | Storytelling based on probability and context.                                                    |
-| **Memory**                | Sticky notes (short-term) vs. a personal diary (long-term).                                       |
-```
-
-### <span style="color:#E67E22;">4. The Road Ahead</span>
+### <span style="color:#E67E22;">3. The Road Ahead</span>
 
 Future models (like GPT-5 and beyond) aim to:
 
