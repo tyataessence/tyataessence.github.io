@@ -6,9 +6,14 @@ categories: [Career]
 author: Rakesh Tyata
 ---
 
-**Emotions** are not obstacles to logic but they are signals guiding wiser choices. **Self-Awareness, Self-Regulation, Motivation, Empathy, and Social Skills** — Each of these emotional intelligence help us on shaping how we think, decide, and relate.
+When you lose your job, you experience a mix of emotions — sadness, frustration, and a sense of fear about the future. These are normal, but let's further look into these. 
+- Loosing the job makes you feel uncertain about the future and your self-worth. You understand the root of your emotion, that is Self-Awareness
+- You resist the urge to blame your manager. Instead, you take time to cool off and plan your next steps, that is Self-Regulations.
+- You realize other employees are also being laid off and share the same struggle. By understanding their feelings, you show Empathy
 
-**Emotional Intelligence (EQ)** reveals that our ability to manage emotions — not just IQ — determines success, happiness, and resilience in life.  
+**Self-Awareness, Self-Regulation, Motivation, Empathy, and Social Skills** — Each of these emotional intelligence help us on shaping how we think, decide, and relate. **Emotions** are not obstacles to logic but they are signals guiding for better choices. 
+
+**Emotional Intelligence (EQ)** reveals our ability to manage emotions — not just IQ — but also determines success, happiness, and resilience in life.  
 Daniel Goleman shows that being "smart" isn't only about logic or knowledge — it's about **self-awareness, empathy, and emotional mastery**.
 
 💡 _Analogy: It's like driving a powerful car — IQ is the engine, but EQ is the steering wheel. Without emotional control, the smartest person can still crash._
