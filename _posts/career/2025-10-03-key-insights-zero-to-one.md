@@ -6,7 +6,7 @@ categories: [Career]
 author: Rakesh Tyata
 ---
 
-Imagine a world where the impossible becomes possible, where the boundaries of what's known are pushed back, and where the future isn't just something we foresee, but something we shape  and create.. That’s the kind of progress we're talking about today.
+Imagine a world where the impossible becomes possible, where the boundaries of what's known are pushed back, and where the future isn't just something we foresee, but something we shape and create.. That’s the kind of progress we're talking about today.
 
 In the book Zero to One, the author Peter Thiel does not just tell us to work harder — he challenges us to think differently. Because real innovation isn’t about doing more of the same, it's about doing something that’s never been done before. It’s about that breakthrough moment when we stop replicating what already exists and start creating what has never been imagined yet.
 
