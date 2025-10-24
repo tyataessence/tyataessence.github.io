@@ -2,7 +2,7 @@
 layout: default
 title: "30 Minutes to Build Energy, Skills & Confidence"
 date: 2025-10-07
-categories: [Personal]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 

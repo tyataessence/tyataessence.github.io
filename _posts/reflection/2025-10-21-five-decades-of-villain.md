@@ -2,7 +2,7 @@
 layout: default
 title: "From Fear to Philosophy — The Evolution of Villains Through Decades"
 date: 2025-10-21
-categories: [Personal]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 

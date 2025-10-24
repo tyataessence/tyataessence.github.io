@@ -2,7 +2,7 @@
 layout: default
 title: "From Destiny to Self-Discovery — The Evolution of Love Through Decades"
 date: 2025-10-19
-categories: [Personal]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 

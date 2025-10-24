@@ -2,7 +2,7 @@
 layout: default
 title: "Heroes vs Villains — The Dual Evolution of Good and Evil"
 date: 2025-10-22
-categories: [Personal]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 

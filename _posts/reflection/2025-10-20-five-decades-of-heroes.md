@@ -2,7 +2,7 @@
 layout: default
 title: "From Duty to Duality — The Evolution of Heroes Through Decades"
 date: 2025-10-20
-categories: [Personal]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 
