@@ -91,4 +91,4 @@ From handwritten letters to instant texts, from slow dances to swipes — love r
 📝 _Written by Rakesh Tyata_
 
 > “The eras change, but emotions don’t — love keeps finding new ways to be timeless.”  
-> — _Tyata Reflections_
+> — _TyataEssence_

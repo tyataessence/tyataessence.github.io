@@ -98,4 +98,5 @@ they save moments, people, and sometimes, **themselves.**
 📝 _Written by Rakesh Tyata_
 
 > “Heroes evolve, but their purpose doesn’t — to remind us that even in chaos, goodness still dares to rise.”  
-> — _Tyata Reflections_
+> — _TyataEssence_
+

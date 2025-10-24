@@ -96,4 +96,4 @@ to remind us how precious the light still is.
 📝 _Written by Rakesh Tyata_
 
 > “Evil doesn’t vanish — it evolves. Every villain carries the echo of our own unspoken fears.”  
-> — _Tyata Reflections_
+> — _TyataEssence_

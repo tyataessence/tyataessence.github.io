@@ -109,4 +109,5 @@ it’s about **understanding where it begins.**
 📝 _Written by Rakesh Tyata_
 
 > “A hero and a villain are not opposites — they’re reflections, split by a single choice.”  
-> — _Tyata Reflections_
+> — _TyataEssence_
+
