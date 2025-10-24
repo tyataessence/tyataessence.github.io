@@ -2,7 +2,7 @@
 layout: default
 title: "Why TyataEssence!"
 date: 2025-09-20
-categories: [Personal]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 

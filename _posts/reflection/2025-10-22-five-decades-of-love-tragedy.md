@@ -2,7 +2,7 @@
 layout: default
 title: "The Tragedy of Love — Through 5 Decades of Nepali Music"
 date: 2025-10-22
-categories: [Culture, Reflection, Music]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 
