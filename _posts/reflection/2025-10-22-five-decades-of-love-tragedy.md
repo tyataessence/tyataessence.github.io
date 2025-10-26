@@ -24,7 +24,7 @@ Let's explore the tragedy of love through decades of Nepali music, focusing the 
 
 ---
 
-## <span style="color:#228B22;">🎵 1970s — The Era of Innocent Longing</span>
+## <span style="color:#228B22;">🎵 1970s — Innocent Longing</span>
 
 🎶 _Aruna Lama, Narayan Gopal, Prem Dhoj Pradhan, Bhakta Raj Acharya_  
 🕊️ Songs: _Pohor Saal Khusi Phatda, Timi Jun Raharle, Para Laijau Phoola Haru_
@@ -39,7 +39,7 @@ And that incompleteness gave birth to timeless melodies.
 
 ---
 
-## <span style="color:#FF8C00;">💔 1980s — The Pain of Separation</span>
+## <span style="color:#FF8C00;">💔 1980s — Pain of Separation</span>
 
 🎶 _Om Bikram Bista, Deep Shrestha, Arun Thapa_  
 🕊️ Songs: _Fute ko bhagya, Kati kamjor rahecha, Jati Maya Laye Pani_
@@ -54,7 +54,7 @@ The pain of being apart became more powerful than the joy of being together.
 
 ---
 
-## <span style="color:#FFD700;">🌧️ 1990s-2000s — The Echo of Broken Promises & Melancholy Modernism</span>
+## <span style="color:#1E90FF;">🌧️ 1990s-2000s — Broken Promises & Melancholy Modernism</span>
 
 🎶 _Nabin K. Bhattarai, 1974 AD, Babin Pradhan, Kunti Moktan, Karna Das, Yogeshwor Amatya, Raju Lama, Deepak Bajracharya, Sugam Pokharel, Anil Singh, Sabin Rai_  
 🕊️ Songs: _Aakhama Timilai, Samjhi Baschu, Timro Mero Sambandha, Bhetiyera Chhutnu Bhanda, Samhalincha Kahile Man_
@@ -75,7 +75,7 @@ Love wasn’t gentle anymore — it was **a storm inside the soul, introspection
 
 ---
 
-## <span style="color:#E74C3C;">🔥 2010s–2020s — The Real, Raw, and Reflective</span>
+## <span style="color:#E74C3C;">🔥 2010s–2020s — Raw Reflective</span>
 
 🎶 _Hemant Rana, Yama Buddha, Sajjan Raj Vaidya, Sanjeev Baraili, Sujan Chapagain, Vten, Sushant KC, Prakash Saput_  
 🕊️ Songs: _Saili, Chupchap, Sangi, Eklai Bhayeni, Hataarindai Bataasindai_
@@ -89,7 +89,7 @@ Tragedy now lives in the unsaid — in the spaces between words, beats, and brea
 
 ---
 
-## <span style="color:#DC143C;">💞 The Eternal Song of Pain and Beauty</span>
+## <span style="color:#FFD700;">💞 The Eternal Song of Pain and Beauty</span>
 
 From Narayan Gopal’s timeless ache to Sajjan Raj Vaidya’s modern melancholy,  
 Nepali music has never stopped teaching us how to feel deeply.  
