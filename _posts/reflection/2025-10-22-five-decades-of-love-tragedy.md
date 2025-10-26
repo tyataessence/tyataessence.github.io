@@ -26,8 +26,8 @@ Let's explore the tragedy of love through decades of Nepali music, focusing the 
 
 ## <span style="color:#228B22;">🎵 1970s — The Era of Innocent Longing</span>
 
-🎶 _Aruna Lama, Narayan Gopal, Prem Dhoj Pradhan_  
-🕊️ Songs: _Euta Manchhe Ko Maya Le Kati_, _Yo Samjhine Man Cha_, _Kehi Mitho Baat Gara_
+🎶 _Aruna Lama, Narayan Gopal, Prem Dhoj Pradhan, Bhakta Raj Acharya_  
+🕊️ Songs: _Pohor Saal Khusi Phatda, Timi Jun Raharle, Para Laijau Phoola Haru_
 
 **Why it mattered:**  
 This was the era of simplicity — when letters carried love and silence spoke louder than words. Songs were tender, poetic, and drenched in quiet sadness. They didn’t shout heartbreak; they whispered it.  
@@ -42,10 +42,10 @@ And that incompleteness gave birth to timeless melodies.
 ## <span style="color:#FF8C00;">💔 1980s — The Pain of Separation</span>
 
 🎶 _Om Bikram Bista, Deep Shrestha, Arun Thapa_  
-🕊️ Songs: _Maile Chhoyeko Pani Chhune Man Lagdaina_, _Mero Sansar Timilai_, _Jati Maya Laye Pani_
+🕊️ Songs: _Fute ko bhagya, Kati kamjor rahecha, Jati Maya Laye Pani_
 
 **Why it mattered:**  
-The 80s turned love into something deeper — and sadder. Migration, distance, and lost letters became the themes of a changing society. Singers carried the sorrow of love across borders.  
+The 80s turned love into something deeper — and sadder. Migration, distance, and lost letters became the themes of a changing society. Singers carried the sorrow of love across borders. Om Bikram Bista is widely recognized as the pioneer and first Pop (Popular music) singer of Nepal.
 💫 Arun Thapa’s voice felt like an open wound — graceful, yet aching.
 
 **Essence:**  
@@ -54,10 +54,10 @@ The pain of being apart became more powerful than the joy of being together.
 
 ---
 
-## <span style="color:#FFD700;">🌧️ 1990s — The Echo of Broken Promises</span>
+## <span style="color:#FFD700;">🌧️ 1990s-2000s — The Echo of Broken Promises & Melancholy Modernism</span>
 
-🎶 _Nabin K. Bhattarai, 1974 AD (early works), Sugam Pokharel, Deepak Bajracharya, Kunti Moktan_  
-🕊️ Songs: _Aakhama Timilai_, _Samjhi Baschu Yo Raat Bhari_, _Mero Euta Saathi Cha_
+🎶 _Nabin K. Bhattarai, 1974 AD, Babin Pradhan, Kunti Moktan, Karna Das, Yogeshwor Amatya, Raju Lama, Deepak Bajracharya, Sugam Pokharel, Anil Singh, Sabin Rai_  
+🕊️ Songs: _Aakhama Timilai, Samjhi Baschu, Timro Mero Sambandha, Bhetiyera Chhutnu Bhanda, Samhalincha Kahile Man_
 
 **Why it mattered:**  
 In the 90s, Nepali music turned urban, youthful, and heartbroken in a new way. Love was no longer destiny — it was discovery, confusion, and heartbreak. The lyrics became personal journals.  
@@ -67,14 +67,6 @@ In the 90s, Nepali music turned urban, youthful, and heartbroken in a new way. L
 Love was no longer poetic tragedy — it was **emotional realism.**  
 Songs became confessions sung into the void.
 
----
-
-## <span style="color:#1E90FF;">💫 2000s — The Era of Melancholy Modernism</span>
-
-🎶 _The Shadows Nepal, Robin and The New Revolution, Anil Singh, Karna Das,_  
-🕊️ Songs: _Mero Prayas_, _Maun Ko Bhasha_, _Timro Lagi Sabai Tyage_, _Bhetiyera Chhutnu Bhanda_
-
-**Why it mattered:**  
 The 2000s brought rock, pop, and pain together. The youth found their heartbreak amplified by distortion and drums. Love was now louder, rawer — reflecting a generation of migration, identity, and internal conflict.  
 🎸 Every chord felt like resistance; every chorus, a cry for connection.
 
@@ -85,12 +77,12 @@ Love wasn’t gentle anymore — it was **a storm inside the soul, introspection
 
 ## <span style="color:#E74C3C;">🔥 2010s–2020s — The Real, Raw, and Reflective</span>
 
-🎶 _Sajjan Raj Vaidya, Bartika Eam Rai, Tribal Rain, Swoopna Suman, Sanjeev Baraili, Sujan Chapagain, Vten, Sushant KC, Prakash Saput_  
-🕊️ Songs: _Chupchap_, _Sangi_, _Eklai Bhayeni_, _Hataarindai Bataasindai_, _Katha_
+🎶 _Hemant Rana, Yama Buddha, Sajjan Raj Vaidya, Sanjeev Baraili, Sujan Chapagain, Vten, Sushant KC, Prakash Saput_  
+🕊️ Songs: _Saili, Chupchap, Sangi, Eklai Bhayeni, Hataarindai Bataasindai_
 
 **Why it matters:**  
 Modern Nepali love songs carry the tragedy differently — not in grand heartbreaks, but in subtle emotional truths. The pain is quiet, internal, reflective — about mental health, loss, identity, and healing.  
-💔 The new generation doesn’t just cry over love — it _learns_ from it. It is about _losing yourself_ while remembering them.
+💔 The new generation doesn’t just cry over love - It is about _losing yourself_ while remembering them.
 
 **Essence:**  
 Tragedy now lives in the unsaid — in the spaces between words, beats, and breaths.
