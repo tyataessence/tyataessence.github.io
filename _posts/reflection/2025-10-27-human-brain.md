@@ -2,7 +2,7 @@
 layout: default
 title: "Understanding the Human Brain: Left vs Right, Life Stages, and Boosting Your Mind"
 date: 2025-10-27
-categories: [Education, Health]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 

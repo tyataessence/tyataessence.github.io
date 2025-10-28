@@ -2,7 +2,7 @@
 layout: default
 title: "Life's Gentle Lessons: Mistakes We Make and Wisdom We Gain"
 date: 2025-10-26
-categories: [Life, Motivation, Personal Growth]
+categories: [Reflection]
 author: Rakesh Tyata
 ---
 
